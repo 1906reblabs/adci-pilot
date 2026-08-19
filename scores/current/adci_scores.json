@@ -1,1 +1,208 @@
-
+{
+  "week": "2026-08-18",
+  "generated_at": "2026-08-18T21:48:26.115744+00:00",
+  "countries": {
+    "ZAF": {
+      "adci_score": 48.7,
+      "pillars": {
+        "Infrastructure": {
+          "score": 65.9,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 50.4,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        },
+        "Government": {
+          "score": 60.0,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Economy": {
+          "score": 30.9,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        },
+        "AI": {
+          "score": 36.3,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 72.3,
+          "normalized": 72.3,
+          "confidence": "high"
+        },
+        "INF-02": {
+          "raw_value": 8.1,
+          "normalized": 59.5,
+          "confidence": "medium"
+        },
+        "FIN-01": {
+          "raw_value": 58.0,
+          "normalized": 58.0,
+          "confidence": "high"
+        },
+        "FIN-02": {
+          "raw_value": 41.0,
+          "normalized": 41.0,
+          "confidence": "low"
+        },
+        "GOV-01": {
+          "raw_value": 66.0,
+          "normalized": 66.0,
+          "confidence": "medium"
+        },
+        "GOV-02": {
+          "raw_value": 54.0,
+          "normalized": 54.0,
+          "confidence": "medium"
+        },
+        "ECO-01": {
+          "raw_value": 47.0,
+          "normalized": 47.0,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.9,
+          "normalized": 18.0,
+          "confidence": "low"
+        },
+        "AI-01": {
+          "raw_value": 39.0,
+          "normalized": 39.0,
+          "confidence": "medium"
+        },
+        "AI-02": {
+          "raw_value": 33.0,
+          "normalized": 33.0,
+          "confidence": "low"
+        }
+      },
+      "missing_indicators": []
+    },
+    "NGA": {
+      "adci_score": 57.2,
+      "pillars": {
+        "Infrastructure": {
+          "score": 55.4,
+          "n_indicators": 1,
+          "partial": false,
+          "min_confidence": "high"
+        },
+        "Finance": {
+          "score": 71.3,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 58.0,
+          "n_indicators": 1,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "AI": {
+          "score": 44.0,
+          "n_indicators": 1,
+          "partial": false,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 55.4,
+          "normalized": 55.4,
+          "confidence": "high"
+        },
+        "FIN-01": {
+          "raw_value": 74.0,
+          "normalized": 74.0,
+          "confidence": "high"
+        },
+        "FIN-02": {
+          "raw_value": 68.0,
+          "normalized": 68.0,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 58.0,
+          "normalized": 58.0,
+          "confidence": "medium"
+        },
+        "AI-01": {
+          "raw_value": 44.0,
+          "normalized": 44.0,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": []
+    },
+    "KEN": {
+      "adci_score": 53.2,
+      "pillars": {
+        "Infrastructure": {
+          "score": 42.0,
+          "n_indicators": 1,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 81.0,
+          "n_indicators": 1,
+          "partial": false,
+          "min_confidence": "high"
+        },
+        "Government": {
+          "score": 61.0,
+          "n_indicators": 1,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "AI": {
+          "score": 28.7,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 42.0,
+          "normalized": 42.0,
+          "confidence": "medium"
+        },
+        "FIN-01": {
+          "raw_value": 81.0,
+          "normalized": 81.0,
+          "confidence": "high"
+        },
+        "GOV-01": {
+          "raw_value": 61.0,
+          "normalized": 61.0,
+          "confidence": "medium"
+        },
+        "AI-01": {
+          "raw_value": 30.0,
+          "normalized": 30.0,
+          "confidence": "low"
+        },
+        "AI-02": {
+          "raw_value": 27.0,
+          "normalized": 27.0,
+          "confidence": "low"
+        }
+      },
+      "missing_indicators": []
+    }
+  }
+}
