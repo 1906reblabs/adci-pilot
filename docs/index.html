@@ -1,1 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADCI — Africa Digital Civilization Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --ink:#0B1220;
+    --surface:#121A2B;
+    --surface-raised:#182338;
+    --line:rgba(232,230,222,0.10);
+    --paper:#E8E6DE;
+    --muted:#8892A6;
+    --gold:#C98A3E;
+    --teal:#3EC9A7;
+    --infra:#5B8DEF;
+    --finance:#3EC9A7;
+    --gov:#C98A3E;
+    --economy:#D9736B;
+    --ai:#B98CE0;
+  }
+  *{box-sizing:border-box;}
+  html{background:var(--ink);}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
 
+  /* Masthead */
+  header.masthead{
+    border-bottom:1px solid var(--line);
+    padding:56px 0 32px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin:0 0 14px;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:700;
+    font-size:clamp(32px,5vw,52px);
+    line-height:1.05;
+    margin:0 0 10px;
+    letter-spacing:-0.01em;
+  }
+  .dek{
+    font-size:16px;
+    color:var(--muted);
+    max-width:56ch;
+    line-height:1.55;
+    margin:0;
+  }
+  .meta-row{
+    display:flex;
+    gap:28px;
+    flex-wrap:wrap;
+    margin-top:28px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--muted);
+  }
+  .meta-row b{color:var(--paper);font-weight:500;}
+  .note-banner{
+    margin-top:18px;
+    font-size:12.5px;
+    color:var(--muted);
+    border-left:2px solid var(--gold);
+    padding:8px 0 8px 14px;
+    max-width:70ch;
+    line-height:1.5;
+  }
+
+  /* Ledger (country cards) */
+  main{padding:40px 0 80px;}
+  .ledger{display:flex;flex-direction:column;gap:2px;}
+  .country-row{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:26px 28px;
+    display:grid;
+    grid-template-columns:220px 1fr 160px;
+    gap:28px;
+    align-items:center;
+  }
+  @media (max-width:760px){
+    .country-row{grid-template-columns:1fr;}
+  }
+  .country-id{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+  .country-name{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:22px;
+  }
+  .country-score{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:34px;
+    font-weight:500;
+    color:var(--gold);
+    line-height:1;
+  }
+  .country-score sup{
+    font-size:13px;
+    color:var(--muted);
+    font-weight:400;
+    margin-left:4px;
+  }
+
+  /* Pillar spine — the signature element */
+  .spine{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .spine-bar{
+    display:flex;
+    height:10px;
+    border-radius:1px;
+    overflow:hidden;
+    border:1px solid var(--line);
+  }
+  .spine-seg{height:100%;}
+  .spine-labels{
+    display:flex;
+    justify-content:space-between;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    color:var(--muted);
+    letter-spacing:.02em;
+  }
+  .spine-labels span{display:flex;align-items:center;gap:5px;}
+  .dot{width:6px;height:6px;border-radius:50%;display:inline-block;}
+
+  .trend-cell canvas{max-width:100%;}
+
+  /* Legend / footer */
+  .legend{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:28px 0 0;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--muted);
+  }
+  .legend span{display:flex;align-items:center;gap:6px;}
+
+  section.brief{margin-top:56px;}
+  section.brief h2{
+    font-family:'Fraunces',serif;
+    font-size:20px;
+    font-weight:600;
+    border-bottom:1px solid var(--line);
+    padding-bottom:12px;
+    margin-bottom:16px;
+  }
+  .registry-table{width:100%;border-collapse:collapse;font-size:13px;}
+  .registry-table th{
+    text-align:left;
+    font-family:'IBM Plex Mono',monospace;
+    font-weight:500;
+    color:var(--muted);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    padding:8px 12px 8px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .registry-table td{
+    padding:10px 12px 10px 0;
+    border-bottom:1px solid var(--line);
+    color:var(--paper);
+  }
+  .registry-table td.mono{font-family:'IBM Plex Mono',monospace;color:var(--muted);font-size:12px;}
+
+  footer{
+    border-top:1px solid var(--line);
+    padding:24px 0 48px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--muted);
+  }
+  a{color:var(--teal);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <p class="eyebrow">ADCI · Weekly Edition</p>
+      <h1>Africa Digital Civilization Intelligence</h1>
+      <p class="dek">Measuring, explaining, and forecasting Africa's transition toward digitally- and AI-mediated economic civilization. Evidence-driven, deterministically scored, revised in the open.</p>
+      <div class="meta-row" id="meta-row"></div>
+      <div class="note-banner" id="note-banner"></div>
+    </header>
+
+    <main>
+      <div class="ledger" id="ledger"></div>
+      <div class="legend" id="legend"></div>
+
+      <section class="brief">
+        <h2>Pilot indicator registry</h2>
+        <table class="registry-table">
+          <thead>
+            <tr><th>ID</th><th>Pillar</th><th>Indicator</th><th>Direction</th></tr>
+          </thead>
+          <tbody id="registry-body">
+            <tr><td class="mono">INF-01</td><td>Infrastructure</td><td>Internet penetration</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">INF-02</td><td>Infrastructure</td><td>Broadband affordability</td><td class="mono">lower better</td></tr>
+            <tr><td class="mono">FIN-01</td><td>Finance</td><td>Digital payment penetration</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">FIN-02</td><td>Finance</td><td>Stablecoin &amp; crypto adoption</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">GOV-01</td><td>Government</td><td>Digital identity maturity</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">GOV-02</td><td>Government</td><td>Digital public services</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">ECO-01</td><td>Economy</td><td>Digital business ecosystem</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">ECO-02</td><td>Economy</td><td>Technology investment</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">AI-01</td><td>AI</td><td>AI talent</td><td class="mono">higher better</td></tr>
+            <tr><td class="mono">AI-02</td><td>AI</td><td>AI ecosystem</td><td class="mono">higher better</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      ADCI is agent-researched and code-scored — see <a href="https://github.com" id="repo-link">the repository</a> for full methodology, weekly evidence, and revision history. Scores are never edited in place; every revision is appended with a reason.
+    </footer>
+  </div>
+
+<script>
+const PILLAR_COLORS = {
+  "Infrastructure": getVar('--infra'),
+  "Finance": getVar('--finance'),
+  "Government": getVar('--gov'),
+  "Economy": getVar('--economy'),
+  "AI": getVar('--ai'),
+};
+
+function getVar(name){
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+async function loadData(){
+  try{
+    const res = await fetch('data/adci_scores.json');
+    if(!res.ok) throw new Error('no data file yet');
+    const data = await res.json();
+    render(data);
+  }catch(e){
+    document.getElementById('ledger').innerHTML =
+      '<p style="color:var(--muted);font-family:\'IBM Plex Mono\',monospace;font-size:13px;">' +
+      'No scores published yet. Run the weekly pipeline (see CLAUDE.md) to generate ' +
+      'data/adci_scores.json.</p>';
+  }
+}
+
+function render(data){
+  document.getElementById('meta-row').innerHTML =
+    `<span>Week of <b>${data.week}</b></span>` +
+    `<span>Countries tracked: <b>${Object.keys(data.countries).length}</b></span>` +
+    `<span>Generated <b>${new Date(data.generated_at).toISOString().slice(0,16).replace('T',' ')} UTC</b></span>`;
+
+  if(data.note){
+    document.getElementById('note-banner').textContent = data.note;
+  }
+
+  const legend = Object.entries(PILLAR_COLORS).map(([name,color]) =>
+    `<span><span class="dot" style="background:${color}"></span>${name}</span>`
+  ).join('');
+  document.getElementById('legend').innerHTML = legend;
+
+  const ledger = document.getElementById('ledger');
+  ledger.innerHTML = '';
+
+  // sort countries by score, descending
+  const entries = Object.entries(data.countries).sort((a,b) => (b[1].adci_score||0) - (a[1].adci_score||0));
+
+  entries.forEach(([iso3, c], idx) => {
+    const row = document.createElement('div');
+    row.className = 'country-row';
+
+    const pillarEntries = Object.entries(c.pillars || {});
+    const totalWeight = pillarEntries.length || 1;
+    const segs = pillarEntries.map(([pillar, p]) => {
+      const color = PILLAR_COLORS[pillar] || '#7C8699';
+      return `<div class="spine-seg" style="width:${100/totalWeight}%;background:${color};opacity:${0.35 + (p.score/100)*0.65}"></div>`;
+    }).join('');
+    const labels = pillarEntries.map(([pillar, p]) => {
+      const color = PILLAR_COLORS[pillar] || '#7C8699';
+      return `<span><span class="dot" style="background:${color}"></span>${p.score}</span>`;
+    }).join('');
+
+    row.innerHTML = `
+      <div class="country-id">
+        <div class="country-name">${c.name}</div>
+        <div class="country-score">${c.adci_score ?? '—'}<sup>/ 100</sup></div>
+      </div>
+      <div class="spine">
+        <div class="spine-bar">${segs}</div>
+        <div class="spine-labels">${labels}</div>
+      </div>
+      <div class="trend-cell">
+        <canvas id="trend-${iso3}" width="160" height="52"></canvas>
+      </div>
+    `;
+    ledger.appendChild(row);
+  });
+
+  // draw trends after DOM insert
+  entries.forEach(([iso3]) => {
+    const history = (data.history && data.history[iso3]) || [];
+    if(!history.length) return;
+    const ctx = document.getElementById(`trend-${iso3}`);
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: history.map(h => h.week),
+        datasets: [{
+          data: history.map(h => h.adci_score),
+          borderColor: getVar('--gold'),
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.35,
+          fill: false,
+        }]
+      },
+      options: {
+        responsive: false,
+        plugins: { legend: { display: false }, tooltip: { enabled: false } },
+        scales: { x: { display:false }, y: { display:false } },
+        elements: { line: { borderJoinStyle:'round' } },
+      }
+    });
+  });
+}
+
+loadData();
+</script>
+</body>
+</html>
