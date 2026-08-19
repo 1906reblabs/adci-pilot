@@ -1,1 +1,243 @@
-
+{
+  "week": "2026-08-19",
+  "generated_at": "2026-08-19T03:15:02.619113+00:00",
+  "countries": {
+    "ZAF": {
+      "adci_score": 50.8,
+      "pillars": {
+        "Infrastructure": {
+          "score": 84.3,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 63.6,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Economy": {
+          "score": 3.0,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "low"
+        },
+        "AI": {
+          "score": 52.1,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 75.6,
+          "normalized": 75.6,
+          "confidence": "high"
+        },
+        "INF-02": {
+          "raw_value": 1.41,
+          "normalized": 93.0,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 63.6,
+          "normalized": 63.6,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.149,
+          "normalized": 3.0,
+          "confidence": "low"
+        },
+        "AI-01": {
+          "raw_value": 52.1,
+          "normalized": 52.1,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "FIN-01",
+        "FIN-02",
+        "GOV-02",
+        "ECO-01",
+        "AI-02"
+      ],
+      "forecast": {
+        "as_of": "2026-08-19",
+        "target_year": 2030,
+        "base": 58,
+        "upside": 67,
+        "downside": 45,
+        "reasoning": "Starting from an ADCI of 50.8 built on only 5 of 10 indicators and a completely empty Finance pillar this week, this forecast leans more on structural read than on trend (there is no real historical series yet -- the 2026-08-18 snapshot was sample/synthetic data, not a genuine prior week). Base case assumes South Africa's Finance pillar gets populated in coming cycles at a level consistent with its mature banking and crypto sector (this week's search surfaced active Ripple-Absa custody partnerships and growing regulatory clarity, though no scorable FIN-01/FIN-02 figure yet), plus continued Smart ID migration. Upside case leans on this week's Integration note: Smart ID issuance now running through retail bank branches (FNB, Capitec, Standard Bank) is a real GOV-FIN convergence that could accelerate both pillars together if it scales toward the 750-branch target. Downside case reflects the current very weak Economy pillar (ECO-02 normalized at just 3.0) persisting, and the GDP-denominator sensitivity flagged by the Red Team meaning even that low figure could be a slight overstatement."
+      },
+      "name": "South Africa"
+    },
+    "NGA": {
+      "adci_score": 58.5,
+      "pillars": {
+        "Infrastructure": {
+          "score": 72.2,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 98.7,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 59.1,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Economy": {
+          "score": 4.0,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 53.0,
+          "normalized": 53.0,
+          "confidence": "medium"
+        },
+        "INF-02": {
+          "raw_value": 1.71,
+          "normalized": 91.5,
+          "confidence": "medium"
+        },
+        "FIN-02": {
+          "raw_value": 98.7,
+          "normalized": 98.7,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 59.1,
+          "normalized": 59.1,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.201,
+          "normalized": 4.0,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "FIN-01",
+        "GOV-02",
+        "ECO-01",
+        "AI-01",
+        "AI-02"
+      ],
+      "forecast": {
+        "as_of": "2026-08-19",
+        "target_year": 2030,
+        "base": 62,
+        "upside": 73,
+        "downside": 50,
+        "reasoning": "Nigeria's current ADCI of 58.5 is meaningfully propped up by a Finance pillar score (98.7) that the Red Team flagged as resting on an extrapolated, not directly published, index value (Finding 2). Base case assumes that gets corrected toward a more conservative demand-side or corroborated measure in a future cycle -- likely pulling the Finance pillar down somewhat -- while NIN digital-ID enrollment continues toward its revised 82%-of-population target by end of 2026 and cheap mobile data (cheapest of the three pilot countries) keeps pulling internet usage up. Upside case assumes Nigeria's genuinely strong, well-corroborated global #2 crypto/stablecoin adoption ranking (Finding 2's imprecision is about the INDEX VALUE, not the underlying rank, which multiple sources agree on) translates into broader formal fintech ecosystem growth rather than staying concentrated in stablecoin/remittance use. Downside case reflects this week's Integration note: naira volatility is a plausible shared driver behind both elevated stablecoin adoption AND declining dollar-denominated VC capital (-3% YoY, the only pilot country to decline) -- if that instability persists or worsens, both the apparent Finance strength and the Economy pillar could move together in a way that looks like growth in Finance but is really currency stress."
+      },
+      "name": "Nigeria"
+    },
+    "KEN": {
+      "adci_score": 55.7,
+      "pillars": {
+        "Infrastructure": {
+          "score": 61.0,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 98.0,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "low"
+        },
+        "Economy": {
+          "score": 14.1,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "AI": {
+          "score": 49.7,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 35.0,
+          "normalized": 35.0,
+          "confidence": "medium"
+        },
+        "INF-02": {
+          "raw_value": 2.62,
+          "normalized": 86.9,
+          "confidence": "medium"
+        },
+        "FIN-01": {
+          "raw_value": 98.0,
+          "normalized": 98.0,
+          "confidence": "low"
+        },
+        "ECO-02": {
+          "raw_value": 0.706,
+          "normalized": 14.1,
+          "confidence": "medium"
+        },
+        "AI-01": {
+          "raw_value": 49.7,
+          "normalized": 49.7,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "FIN-02",
+        "GOV-01",
+        "GOV-02",
+        "ECO-01",
+        "AI-02"
+      ],
+      "forecast": {
+        "as_of": "2026-08-19",
+        "target_year": 2030,
+        "base": 60,
+        "upside": 70,
+        "downside": 47,
+        "reasoning": "Kenya's current ADCI of 55.7 includes a Finance pillar score (98.0) the Red Team flagged (Finding 1) as measuring mobile-money REGISTRATION rather than usage -- CA's own report carries this caveat. Base case assumes a genuine demand-side FIN-01 figure emerges in a future cycle (likely lower than 98, since registration-to-usage gaps are well documented for mobile money generally) while Kenya's clear continental lead in tech capital raised (debt-driven) and second-place AI talent readiness score continue on their current trajectories. Upside case leans on this week's Integration note: if Maisha Namba's digital-ID rollout clears its remaining legal/institutional friction (the 2023-24 court injunction was lifted in August 2024, but public scrutiny continues), it could unlock the GOV-to-FIN interoperability chain that this week's evidence shows has not yet materialized for Kenya the way it appears to be starting to in South Africa. Downside case assumes that friction persists, Maisha Namba stays stalled, AND the FIN-01 correction toward genuine usage data turns out to be a large downward revision -- which combined would leave Kenya's strongest-looking pillar this week as its most overstated."
+      },
+      "name": "Kenya"
+    }
+  },
+  "note": "This is the ADCI pilot's first REAL weekly run (2026-08-19). All data prior to this date in this dashboard's history -- including the 2026-08-18 snapshot -- was sample/synthetic placeholder data used to prove out the pipeline, per the project README, and has been excluded from the trend lines below rather than blended in as if it were real. Real week-over-week trends will build up starting from this week. Several indicators are still missing for all three countries this cycle (see missing_indicators per country) -- see this week's brief and red-team report for details.",
+  "history": {
+    "ZAF": [
+      {
+        "week": "2026-08-19",
+        "adci_score": 50.8
+      }
+    ],
+    "NGA": [
+      {
+        "week": "2026-08-19",
+        "adci_score": 58.5
+      }
+    ],
+    "KEN": [
+      {
+        "week": "2026-08-19",
+        "adci_score": 55.7
+      }
+    ]
+  }
+}
