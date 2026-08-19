@@ -1,0 +1,438 @@
+[
+  {
+    "country": "ZAF",
+    "indicator": "INF-01",
+    "value": 75.6,
+    "unit": "%",
+    "as_of_date": "2026-03-31",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-INF-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Sole source this week (ICASA + StatsSA GHS 2024, both Tier 1). No prior REAL observation exists to compare against \u2014 the 2026-08-18 snapshot in scores/historical/ is labeled sample/synthetic data per README, so previous_value/change are left null rather than compared against fictional data.",
+    "pillar_commentary": "Usage (75.6%) sits well ahead of Kenya and comparable to Nigeria's regulator-reported figure, on a strong statistical base (ICASA+StatsSA). Mobile still dominates access; fixed-line-at-home remains rare (17.4%), so the connectivity story is really a mobile-affordability story."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "INF-02",
+    "value": 1.41,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-INF-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "A4AI 'average income' proxy, not a strict ITU GNI-per-capita basket figure \u2014 close but not identical construct to the registry definition.",
+    "pillar_commentary": "At 1.41% of average income for 1GB, South Africa is the most affordable of the three pilot markets this cycle despite having historically been described as expensive relative to African peers \u2014 worth watching whether this reflects real price competition or a data-source artefact (raw $/GB rankings this cycle put SA mid-pack, not top)."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-01",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week",
+    "pillar_commentary": "No validated figure this cycle. Notable given South Africa's mature banking sector and a fast-growing crypto/stablecoin market (per FIN-02 research) \u2014 this looks like a sampling gap, not a genuine absence of digital-finance activity."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 a candidate claim (Chainalysis rank #30) existed but failed Source Critic review for using a stale (Sept 2025) index edition inconsistent with the current-vintage editions used for Nigeria this same week. Re-scout South Africa's current-edition rank next cycle.",
+    "pillar_commentary": "A real candidate rank existed but used a stale index edition; South Africa's crypto/stablecoin sector is active enough (Ripple-Absa custody partnership, rising regulatory clarity) that a current-vintage rank should be findable next cycle."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-01",
+    "value": 63.6,
+    "unit": "score",
+    "as_of_date": "2026-07-29",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-GOV-01-01",
+      "ZAF-GOV-01-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Computed as share of ID holders migrated from legacy green ID book to Smart ID (28M / (28M+16M)) from two DHA-official figures two months apart. This measures migration progress, which is a reasonable but imperfect proxy for the registry's broader 'coverage and interoperability maturity' definition \u2014 it says nothing about interoperability specifically.",
+    "pillar_commentary": "DHA's Smart ID migration is now running at record pace (4M+ issued in FY25/26) but roughly a third of ID holders are still on the legacy green book \u2014 the digitization curve is bending up but isn't finished."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-02",
+    "value": null,
+    "unit": "%",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 Source Scout did not surface current e-government service-availability data for South Africa this cycle"
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-01",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-02",
+    "value": 0.149,
+    "unit": "%",
+    "as_of_date": "2025-12-31",
+    "confidence": "low",
+    "source_ids": [
+      "ZAF-ECO-02-01",
+      "ZAF-ECO-02-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Computed as $715M Partech-reported 2025 tech VC+debt / $480B IMF 2026 GDP estimate. Source Critic flagged that South Africa's nominal GDP was cited anywhere from ~$400B to ~$480B across sources found this cycle depending on vintage/methodology \u2014 a ~20% swing that would move this value to ~0.18% under the lower estimate. Confidence lowered to reflect this sensitivity.",
+    "pillar_commentary": "South Africa reclaimed leadership in equity deal flow (not just total capital) in 2025 for the first time since 2017 \u2014 a qualitatively different signal than Kenya's debt-driven capital lead."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-01",
+    "value": 52.1,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Preferred Strategy&/PwC AI talent readiness score (Tier 2) over a conflicting Ataraxis 'AI readiness' score of 66.5 (Tier 3, different methodology measuring outsourcing-sector AI adoption rather than talent readiness specifically) surfaced the same week. Confidence held at medium, not high, because of this unresolved divergence between two different constructs both labeled 'AI readiness.'",
+    "pillar_commentary": "Two different 2025/2026 indices both rank South Africa as the pilot set's AI leader, but disagree sharply on the score (52.1 vs 66.5) because they're measuring different things (talent readiness vs. outsourcing-sector AI adoption). Directionally consistent; numerically not yet reconcilable."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-01",
+    "value": 53.0,
+    "unit": "%",
+    "as_of_date": "2026-01-31",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Preferred NCC-sourced figure (Tier 1, via secondary syndication) over DataReportal/Kepios's 45.5% (Tier 2) per source-hierarchy tie-break. The two figures likely reflect different measurement definitions (network-subscription growth vs. modeled individual-user estimate) rather than a real 7.5pp move \u2014 flagged for Red Team attention. Confidence held at medium given the unreconciled gap.",
+    "pillar_commentary": "NCC's regulator-reported penetration (53%) and Kepios's modeled estimate (45.5%) disagree by 7.5 points \u2014 likely definitional (network subscriptions vs. individual users) rather than a real jump. Either way, Nigeria has the cheapest mobile data of the three pilot countries, which should keep pulling usage up."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-02",
+    "value": 1.71,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "A4AI 'average income' proxy, not a strict ITU GNI-per-capita basket figure.",
+    "pillar_commentary": "Cheapest data in the pilot set (1.71% of income) \u2014 consistent with Nigeria's long-standing reputation as one of Africa's most competitively priced mobile-data markets."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-01",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 despite Nigeria's country notes flagging FIN-01/FIN-02 as expected high-signal indicators, this cycle's search did not surface a clean CBN/NIBSS demand-side mobile/digital payment penetration figure. Priority target for next cycle's Source Scout."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-02",
+    "value": 98.7,
+    "unit": "index",
+    "as_of_date": "2026-03-12",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Derived by linearly converting Chainalysis's reported global rank (#2 of 151) to a 0-100 index: (151-2)/151*100=98.7. The #2 global ranking itself is corroborated by multiple independent secondary reports this cycle. The specific index VALUE is a downstream construction, not something Chainalysis itself published \u2014 treat as ordinal-strength evidence.",
+    "pillar_commentary": "Nigeria's #2 global rank on Chainalysis's adoption index is the strongest, most-corroborated single data point gathered this cycle for any FIN indicator \u2014 multiple independent secondary sources cite the same figure. Naira depreciation is the widely-cited driver, with USDT functioning as a de facto savings vehicle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-01",
+    "value": 59.1,
+    "unit": "score",
+    "as_of_date": "2026-06-05",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-GOV-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Computed as NIN enrollment (130M) / est. population (220M) from NIMC data via Biometric Update. Population denominator is a casual in-article estimate, not independently confirmed against NPC figures this cycle.",
+    "pillar_commentary": "NIN enrollment (~59% of an estimated population) is progressing toward the revised 82%-by-end-2026 target, but the World Bank-funded program has already been restructured once (from 148M to 180M target) \u2014 worth checking end-of-year whether the new deadline holds."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-02",
+    "value": null,
+    "unit": "%",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-01",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-02",
+    "value": 0.201,
+    "unit": "%",
+    "as_of_date": "2025-12-31",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-02-01",
+      "NGA-ECO-02-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Computed as $572M Partech-reported 2025 tech VC+debt / $285B IMF 2025 GDP estimate. Both figures are same-year vintage, which strengthens this relative to the Kenya/South Africa ECO-02 computations.",
+    "pillar_commentary": "Nigeria was the only one of the three pilot countries to see VC+debt capital raised DECLINE year-on-year in 2025 (-3%) even as the continental total rebounded +25% \u2014 plausibly a naira-driven dollar-reporting effect rather than a real pullback, but worth the Integration Agent's attention alongside the FIN-02 stablecoin story."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-01",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 source only reported that Nigeria ranks 18th among African countries on the Strategy& AI talent readiness index, not Nigeria's actual score. Recommend Source Scout locate the full Strategy& report or Nigeria's specific score next cycle rather than guessing a number from a rank alone.",
+    "pillar_commentary": "Only a relative rank (18th in Africa) was found this cycle, not a score \u2014 directionally this points to a real talent-vs-funding mismatch (Nigeria attracts significant AI funding and hosts ~19% of the continent's AI-focused organisations, second only to South Africa, per a different metric) that a cleaner talent-readiness figure would help quantify next cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 a candidate claim (19% of continental AI organisations located in Nigeria) failed both validator and critic review: wrong unit for the registered indicator and single-sourced without corroboration."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-01",
+    "value": 35.0,
+    "unit": "%",
+    "as_of_date": "2025-08-11",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Preferred the CA+KNBS joint demand-side survey (Tier 1) over DataReportal/Kepios's 40.5% (Tier 2) per source-hierarchy tie-break. Confidence held at medium given the 5.5pp unreconciled gap between sources, flagged for Red Team attention.",
+    "pillar_commentary": "The CA+KNBS demand-side survey (35%) undercuts the higher DataReportal modeled estimate (40.5%) \u2014 and both undercut Kenya's near-universal SIM/mobile-money penetration figures, underscoring a real gap between having a mobile connection and being an active internet user, especially outside Nairobi (64.7% vs 9.1% in West Pokot)."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-02",
+    "value": 2.62,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "A4AI 'average income' proxy. Kenya is the only one of the three pilot countries currently missing the UN Broadband Commission's '1 for 2' affordability target.",
+    "pillar_commentary": "Kenya is the only pilot country currently missing the UN Broadband Commission's affordability target, at 2.62% of income for 1GB \u2014 a plausible partial explanation for the usage gap noted under INF-01."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-01",
+    "value": 98.0,
+    "unit": "index",
+    "as_of_date": "2026-03-31",
+    "confidence": "low",
+    "source_ids": [
+      "KEN-FIN-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "CA-reported registered-mobile-money-subscriptions-to-population ratio (capped under registry max of 100). Both Validator and Critic flagged this as a supply-side registration measure, not the demand-side 'transactions per 100 adults' construct the registry defines \u2014 CA's own report contains the same caveat. Confidence lowered to low to reflect this definitional mismatch rather than treated as a straightforward index value. Recommend Source Scout target CBK/FinAccess demand-side survey data next cycle.",
+    "pillar_commentary": "M-Pesa's registered-subscription penetration (98%) is a genuinely strong supply-side signal, but Kenya's country notes explicitly expected FIN-01 to be a standout indicator, and this week's evidence can't yet distinguish 'everyone has an account' from 'everyone actively transacts' \u2014 the CBK FinAccess demand-side survey should resolve this next cycle."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 source only stated Kenya made a 'debut top-20' appearance on the Chainalysis index without a specific rank; too imprecise to convert to an index value."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-01",
+    "value": null,
+    "unit": "score",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week \u2014 this cycle's search surfaced qualitative Maisha Namba rollout narrative (birth e-notification >90%, 1.7M cards printed, legacy backlog cleared) but no coverage percentage against total/adult population. Priority target for next cycle."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-02",
+    "value": null,
+    "unit": "%",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-01",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-02",
+    "value": 0.706,
+    "unit": "%",
+    "as_of_date": "2025-12-31",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-02-01",
+      "KEN-ECO-02-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Computed as $1.04B Partech-reported 2025 tech VC+debt (Kenya led the continent, driven by debt megadeals) / $147.26B IMF 2026 GDP estimate. Minor vintage mismatch: 2025 VC data vs 2026 GDP projection.",
+    "pillar_commentary": "Kenya led the entire continent in total tech capital raised in 2025 ($1.04B, +72% YoY) \u2014 but driven substantially by debt financing and megadeals rather than equity, a different growth pattern than South Africa's equity-led recovery."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-01",
+    "value": 49.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "Strategy&/PwC AI talent readiness score, Tier 2, reached via secondary summary \u2014 original report not directly located this cycle.",
+    "pillar_commentary": "Kenya's talent-readiness score (49.7) sits close behind South Africa's (52.1) despite a much smaller economy, consistent with Nairobi's 'Silicon Savannah' reputation for healthtech/agritech AI applications noted elsewhere in this cycle's research."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-19",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week"
+  },
+  {
+    "country": "KEN",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "Kenya's Maisha Namba rollout has been shaped as much by civil-society and judicial pushback (Katiba Institute's 2023-24 court injunction over a missing Data Protection Impact Assessment) as by government execution \u2014 a live digital-rights/inclusion signal that a future GOV or Society indicator should probably capture directly rather than leaving implicit in GOV-01.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "NGA",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "This cycle's evidence repeatedly surfaced a skills/talent narrative running ahead of measurable data (AI organisation counts, remote-AI-income claims) \u2014 Nigeria's digital-skills story looks strong on the ground but is currently harder to source-trace numerically than its infrastructure or finance story.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "ZAF",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "Home Affairs' bank-branch partnership model for Smart ID issuance (FNB, Capitec, Standard Bank) is an inclusion mechanism worth tracking \u2014 it's expanding a government service through private-sector distribution, which is a pattern the Integration Agent should watch for elsewhere (e.g. GOV x FIN).",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  }
+]

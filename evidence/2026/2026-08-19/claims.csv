@@ -1,0 +1,22 @@
+claim_id,source_id,country,indicator,value,unit,as_of_date,notes
+NGA-INF-01-01-C1,NGA-INF-01-01,NGA,INF-01,53.0,%,2026-01-31,NCC-reported penetration; primary regulator figure via secondary (allafrica) reporting
+NGA-INF-01-02-C1,NGA-INF-01-02,NGA,INF-01,45.5,%,2025-10-31,Kepios/DataReportal Digital 2026 estimate; independent methodology from NCC
+KEN-INF-01-01-C1,KEN-INF-01-01,KEN,INF-01,35.0,%,2025-08-11,CA+KNBS joint demand-side survey; explicitly a usage measure not a subscription count
+KEN-INF-01-02-C1,KEN-INF-01-02,KEN,INF-01,40.5,%,2025-10-31,Kepios/DataReportal Digital 2026 estimate
+ZAF-INF-01-01-C1,ZAF-INF-01-01,ZAF,INF-01,75.6,%,2026-03-31,ICASA regulatory report using StatsSA General Household Survey 2024 as underlying data
+NGA-INF-02-01-C1,NGA-INF-02-01,NGA,INF-02,1.71,%,2026-06-15,1GB data as % of average income (A4AI methodology); unit matches registry definition directly
+KEN-INF-02-01-C1,KEN-INF-02-01,KEN,INF-02,2.62,%,2026-06-15,1GB data as % of average income; Kenya misses UN '1 for 2' affordability target
+ZAF-INF-02-01-C1,ZAF-INF-02-01,ZAF,INF-02,1.41,%,2026-06-15,1GB data as % of average income; best of the 3 pilot countries on this measure
+KEN-FIN-01-01-C1,KEN-FIN-01-01,KEN,FIN-01,98.0,index,2026-03-31,Registered mobile-money subscriptions as % of population (supply-side); CA itself cautions this is not unique-user demand-side data
+NGA-FIN-02-01-C1,NGA-FIN-02-01,NGA,FIN-02,98.7,index,2026-03-12,Converted from Chainalysis global rank #2 of 151 via (151-rank)/151*100; conversion performed by Evidence Extractor, not stated directly by source
+KEN-FIN-02-01-C1,KEN-FIN-02-01,KEN,FIN-02,,index,2026-03-12,Source states 'debut top-20' without an exact rank; insufficient precision to convert to an index value — dropped from indicator mapping
+ZAF-FIN-02-01-C1,ZAF-FIN-02-01,ZAF,FIN-02,80.1,index,2025-09-12,Converted from Chainalysis rank #30 of 151 via (151-rank)/151*100; NOTE this source vintage is ~6 months older than the Nigeria claim above (different index edition) — flagged for critic review
+NGA-GOV-01-01-C1,NGA-GOV-01-01,NGA,GOV-01,59.1,%,2026-06-05,Computed: 130M NIN enrollments / ~220M est. population (population figure stated in same article, not independently re-verified this cycle)
+ZAF-GOV-01-01-C1,ZAF-GOV-01-01+ZAF-GOV-01-02,ZAF,GOV-01,63.6,%,2026-07-29,Computed: 28M Smart ID cards issued / (28M Smart ID + 16M legacy green ID still in circulation) = share of ID holders migrated to smart/digital-capable format
+NGA-ECO-02-01-C1,NGA-ECO-02-01+NGA-ECO-02-02,NGA,ECO-02,0.201,%,2025-12-31,Computed: $572M tech VC+debt (Partech 2025) / $285,003M nominal GDP (IMF 2025) x 100
+KEN-ECO-02-01-C1,KEN-ECO-02-01+KEN-ECO-02-02,KEN,ECO-02,0.706,%,2025-12-31,Computed: $1040M tech VC+debt (Partech 2025) / $147,260M nominal GDP (IMF 2026) x 100
+ZAF-ECO-02-01-C1,ZAF-ECO-02-01+ZAF-ECO-02-02,ZAF,ECO-02,0.149,%,2025-12-31,Computed: $715M tech VC+debt (Partech 2025) / $479,960M nominal GDP (IMF 2026) x 100 — GDP and VC figures are different-year vintages (2025 VC vs 2026 GDP estimate); flagged for critic review
+KEN-AI-01-01-C1,KEN-AI-01-01,KEN,AI-01,49.7,index,2025-08-25,Strategy& AI talent readiness index score, direct from source
+ZAF-AI-01-01-C1,ZAF-AI-01-01,ZAF,AI-01,52.1,index,2025-08-25,Strategy& AI talent readiness index score, direct from source
+ZAF-AI-01-02-C1,ZAF-AI-01-02,ZAF,AI-01,66.5,index,2026-08-05,Ataraxis AI readiness composite score — a DIFFERENT index/methodology than Strategy&'s talent-readiness score above; both describe South Africa but are not the same measurement
+NGA-AI-02-01-C1,NGA-AI-02-01,NGA,AI-02,19.0,% of continental AI orgs,2025-08-25,Share of continent's AI-focused organisations located in Nigeria; not a 0-100 maturity index and no comparable per-country breakdown found for KEN/ZAF this cycle — flagged as unusable for cross-country normalization without more data
