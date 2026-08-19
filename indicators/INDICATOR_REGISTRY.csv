@@ -1,1 +1,11 @@
-
+id,pillar,indicator,definition,unit,direction,min,max,weight
+INF-01,Infrastructure,Internet penetration,Percent of population using the internet in the past 12 months,%,higher,0,100,1.0
+INF-02,Infrastructure,Broadband affordability,Cost of a fixed/mobile broadband basket as a percent of monthly GNI per capita,%,lower,0,20,1.0
+FIN-01,Finance,Digital payment penetration,Digital/mobile-money transactions per 100 adults (annualized index),index,higher,0,100,1.0
+FIN-02,Finance,Stablecoin and crypto adoption,Estimated on-chain retail activity relative to population (index),index,higher,0,100,0.8
+GOV-01,Government,Digital identity maturity,National digital-ID coverage and interoperability maturity (index),score,higher,0,100,1.0
+GOV-02,Government,Digital public services,Share of core government services available fully online,%,higher,0,100,1.0
+ECO-01,Economy,Digital business ecosystem,Active tech/digital-economy firms per capita (index),index,higher,0,100,0.8
+ECO-02,Economy,Technology investment,Disclosed tech-sector investment (VC + PE) as percent of GDP,%,higher,0,5,1.0
+AI-01,AI,AI talent,"AI-skilled workforce per capita (index, incl. diaspora-adjusted)",index,higher,0,100,1.0
+AI-02,AI,AI ecosystem,Count and stage-mix of active AI-native companies (index),index,higher,0,100,0.8
