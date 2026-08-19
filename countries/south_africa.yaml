@@ -1,0 +1,8 @@
+name: South Africa
+iso3: ZAF
+active: true
+indicators: [INF-01, INF-02, FIN-01, FIN-02, GOV-01, GOV-02, ECO-01, ECO-02, AI-01, AI-02]
+notes: >
+  Strong statistical base (Stats SA, SARB, ICASA reporting) relative to
+  pilot peers — watch for the index rewarding data availability itself;
+  Red Team Agent should check this explicitly.

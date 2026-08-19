@@ -1,1 +1,7 @@
-
+name: Kenya
+iso3: KEN
+active: true
+indicators: [INF-01, INF-02, FIN-01, FIN-02, GOV-01, GOV-02, ECO-01, ECO-02, AI-01, AI-02]
+notes: >
+  Mobile-money penetration (M-Pesa) sets a high FIN-01 baseline; Communications
+  Authority of Kenya and CBK are Tier-1 sources.
