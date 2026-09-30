@@ -1,0 +1,472 @@
+[
+  {
+    "country": "ZAF",
+    "indicator": "INF-01",
+    "value": 75.6,
+    "unit": "%",
+    "as_of_date": "2026-03-31",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-INF-01-03"
+    ],
+    "previous_value": 75.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- no newer edition found this cycle.",
+    "pillar_commentary": "Unchanged this cycle at 75.6% -- South Africa remains well ahead of Kenya and roughly level with Nigeria's regulator-reported figure, on a stable statistical base."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "INF-02",
+    "value": 1.41,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-INF-02-03"
+    ],
+    "previous_value": 1.41,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- South Africa remains the most affordable of the three pilot markets on the A4AI proxy."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-01",
+    "value": 7.26,
+    "unit": "index",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-FIN-01-03"
+    ],
+    "previous_value": 7.26,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- no newer IMF FAS data point found this cycle.",
+    "pillar_commentary": "Unchanged at 7.26, still the lowest indicator score in the dataset -- consistent with the construct-mismatch explanation flagged in the prior two cycles (bank/card/PayShap rails vs. a mobile-money-specific measure), not a real gap in digital payments."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-09-02",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "No validated evidence again this cycle (third consecutive week). Chainalysis's SSA regional report confirms South Africa as the #2 SSA market by on-chain volume with a strong institutional profile, but this is a regional volume ranking, not the global 151-country Overall Index rank/score this indicator's ordinal-to-index formula requires. Priority target remains locating a specific global rank for South Africa.",
+    "pillar_commentary": "Third straight week without a usable global rank. South Africa's status as the SSA region's #2 crypto market by dollar volume (per Chainalysis's own regional report) makes the continued absence of a scorable FIN-02 figure more conspicuous, not less -- this looks increasingly like a genuine data-access gap (no public global rank below the top 20) rather than a search-effort shortfall."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-01",
+    "value": 63.6,
+    "unit": "%",
+    "as_of_date": "2026-07-29",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-GOV-01-04"
+    ],
+    "previous_value": 63.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- Smart ID migration continues at its established pace, no newer DHA figure this cycle."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-02",
+    "value": 88.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-GOV-02-02"
+    ],
+    "previous_value": 88.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- UN E-Gov Survey biennial, 2026 edition not yet published.",
+    "pillar_commentary": "Unchanged -- still the pilot's highest Online Service Index (88.7); UN's biennial survey means no update is expected until the next edition."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-01",
+    "value": 57.1,
+    "unit": "index",
+    "as_of_date": "2026-05-19",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-ECO-01-02"
+    ],
+    "previous_value": 57.1,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- StartupBlink rank (52nd of 120) remains the best of the three pilot countries."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-02",
+    "value": 0.149,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "low",
+    "source_ids": [
+      "ZAF-ECO-02-04"
+    ],
+    "previous_value": 0.149,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged. H1 2026 continental context checked, no country-level split available to apply.",
+    "pillar_commentary": "Unchanged on an annualized FY2025 basis; H1 2026 continental funding data checked but no South Africa-specific split was available to update this figure."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-01",
+    "value": 52.1,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-01-03"
+    ],
+    "previous_value": 52.1,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- South Africa remains the pilot's AI-talent leader on the PwC/Strategy& index."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-02",
+    "value": 49,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-02-02"
+    ],
+    "previous_value": 49,
+    "change": 0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- 49 tracked AI-native startups, no newer TechCabal Insights edition this cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-01",
+    "value": 53.0,
+    "unit": "%",
+    "as_of_date": "2026-01-31",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-01-03"
+    ],
+    "previous_value": 53.0,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- the ~7.5pp NCC-vs-Kepios gap flagged in week one remains unresolved, no new evidence this cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-02",
+    "value": 1.71,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-02-03"
+    ],
+    "previous_value": 1.71,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- Nigeria remains the cheapest data market in the pilot set."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-01",
+    "value": 49.45,
+    "unit": "index",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-01-04"
+    ],
+    "previous_value": 49.45,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- still registration-based; recurring construct concern (3rd cycle).",
+    "pillar_commentary": "Unchanged at 49.45 -- still a registered-accounts measure, not usage; this construct concern has now persisted unresolved for three consecutive cycles across two countries (Nigeria and, previously, Kenya before its correction)."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-02",
+    "value": 96.7,
+    "unit": "index",
+    "as_of_date": "2025-09-02",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-02-03"
+    ],
+    "previous_value": 96.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- Chainalysis current edition still shows rank #6, no correction needed.",
+    "pillar_commentary": "Unchanged -- Chainalysis's current edition still places Nigeria at global rank #6 of 151; no correction was needed this cycle, in contrast to the prior cycle's rank #2-to-#6 fix."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-01",
+    "value": 59.1,
+    "unit": "%",
+    "as_of_date": "2026-06-05",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-GOV-01-03"
+    ],
+    "previous_value": 59.1,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- NIN enrollment continues toward its end-2026 target, no newer NIMC figure this cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-02",
+    "value": 53.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "NGA-GOV-02-02"
+    ],
+    "previous_value": 53.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- still the lowest Online Service Index of the three pilot countries."
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-01",
+    "value": 48.7,
+    "unit": "index",
+    "as_of_date": "2026-05-20",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-01-02"
+    ],
+    "previous_value": 48.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- StartupBlink rank (62nd of 120) holds."
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-02",
+    "value": 0.201,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-02-06"
+    ],
+    "previous_value": 0.201,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged on an annualized FY2025 basis; the H1 2026 equity-funding reversal flagged last cycle ($214M, Nigeria led the continent) has no newer continental report confirming a fuller-year trend yet."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-01",
+    "value": 37.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-AI-01-04"
+    ],
+    "previous_value": 37.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- Nigeria's talent-readiness gap versus South Africa and Kenya persists."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-02",
+    "value": 50,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-AI-02-02"
+    ],
+    "previous_value": 50,
+    "change": 0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- Nigeria still leads the continent's tracked AI-native startup count (50)."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-01",
+    "value": 35.0,
+    "unit": "%",
+    "as_of_date": "2025-08-11",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-01-03"
+    ],
+    "previous_value": 35.0,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- the CA+KNBS demand-side figure continues to undercut the Kepios modeled estimate."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-02",
+    "value": 2.62,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-02-03"
+    ],
+    "previous_value": 2.62,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- Kenya remains the only pilot country missing the UN Broadband Commission's affordability target."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-01",
+    "value": 52.6,
+    "unit": "index",
+    "as_of_date": "2024-12-03",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-FIN-01-05"
+    ],
+    "previous_value": 52.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged at 52.6 -- still the strongest, most credible FIN-01 figure of the three pilot countries on a like-for-like usage basis."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-09-02",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "No validated evidence again this cycle (third consecutive week). Kenya named in Chainalysis's SSA regional top-5 by volume but no specific global rank/score located.",
+    "pillar_commentary": "Third straight week without a usable global rank -- Kenya's presence in Chainalysis's SSA regional top five (by volume) doesn't resolve the missing global Overall Index rank this indicator needs."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-01",
+    "value": 40.6,
+    "unit": "%",
+    "as_of_date": "2024-05-08",
+    "confidence": "low",
+    "source_ids": [
+      "KEN-GOV-01-04"
+    ],
+    "previous_value": 40.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged (same stale 2024 base -- THIRD consecutive week with no updated official figure). Directly checked immigration.go.ke this cycle per last week's recommendation; no consolidated statistics page exists there either. This is now a persistent primary-source transparency gap, not a one-off search miss -- flagged prominently for this week's Red Team.",
+    "pillar_commentary": "Unchanged at 40.6%, but this is now the THIRD consecutive week on the same May 2024 base with no fresher official figure -- and this cycle directly checked the primary source (immigration.go.ke) and found no consolidated coverage statistics published there either. What began as a 'stale secondary citation' concern in week two now looks more like a genuine primary-source reporting gap."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-02",
+    "value": 77.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "KEN-GOV-02-02"
+    ],
+    "previous_value": 77.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- still the second-highest Online Service Index of the three, ahead of Nigeria."
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-01",
+    "value": 49.6,
+    "unit": "index",
+    "as_of_date": "2026-07-01",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-01-02"
+    ],
+    "previous_value": 49.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- StartupBlink rank (61st of 120) holds, between South Africa and Nigeria."
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-02",
+    "value": 0.706,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-02-04"
+    ],
+    "previous_value": 0.706,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged on an annualized FY2025 basis; the weak H1 2026 performance flagged last cycle has no fuller-year confirmation yet."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-01",
+    "value": 49.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-01-03"
+    ],
+    "previous_value": 49.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- Kenya remains close behind South Africa in talent readiness."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-02",
+    "value": 31,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-02-02"
+    ],
+    "previous_value": 31,
+    "change": 0,
+    "notes": "Re-confirmed unchanged.",
+    "pillar_commentary": "Unchanged -- fewest tracked AI-native startups (31) but most advanced by stage-mix, per the same April 2026 TechCabal Insights dataset."
+  },
+  {
+    "country": "KEN",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "This cycle directly tested whether Kenya's stale Maisha Namba coverage figure was a secondary-press citation problem or a primary-source reporting gap, per last cycle's recommendation. The answer: the primary source itself (immigration.go.ke) does not publish a consolidated, current coverage statistic -- three consecutive weekly cycles have now failed to locate one. This is itself a transparency signal about Kenya's digital-ID program worth tracking as a candidate for a future Society/inclusion indicator.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "NGA",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "No new Society-level signal surfaced this cycle beyond what was already noted in the prior two weeks (volume-vs-inclusion gap in digital payments).",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "ZAF",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "The FIN-01 construct-mismatch question flagged in the prior cycle remains open and, if anything, is reinforced this cycle by South Africa's confirmed #2 SSA ranking by crypto/digital-asset dollar volume sitting alongside a near-zero FIN-01 (mobile-money-specific) score -- underscoring that 'digital finance maturity' and 'mobile-money usage' are measuring different things for this country.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  }
+]
