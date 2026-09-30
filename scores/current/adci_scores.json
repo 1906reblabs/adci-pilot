@@ -1,208 +1,336 @@
 {
-  "week": "2026-08-18",
-  "generated_at": "2026-08-18T21:48:26.115744+00:00",
+  "week": "2026-09-02",
+  "generated_at": "2026-09-02T11:19:58.766853+00:00",
   "countries": {
     "ZAF": {
-      "adci_score": 48.7,
+      "adci_score": 49.1,
       "pillars": {
         "Infrastructure": {
-          "score": 65.9,
+          "score": 84.3,
           "n_indicators": 2,
           "partial": false,
           "min_confidence": "medium"
         },
         "Finance": {
-          "score": 50.4,
-          "n_indicators": 2,
-          "partial": false,
-          "min_confidence": "low"
+          "score": 7.3,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
         },
         "Government": {
-          "score": 60.0,
+          "score": 76.2,
           "n_indicators": 2,
           "partial": false,
           "min_confidence": "medium"
         },
         "Economy": {
-          "score": 30.9,
+          "score": 27.0,
           "n_indicators": 2,
           "partial": false,
           "min_confidence": "low"
         },
         "AI": {
-          "score": 36.3,
+          "score": 50.7,
           "n_indicators": 2,
           "partial": false,
-          "min_confidence": "low"
+          "min_confidence": "medium"
         }
       },
       "indicators": {
         "INF-01": {
-          "raw_value": 72.3,
-          "normalized": 72.3,
+          "raw_value": 75.6,
+          "normalized": 75.6,
           "confidence": "high"
         },
         "INF-02": {
-          "raw_value": 8.1,
-          "normalized": 59.5,
+          "raw_value": 1.41,
+          "normalized": 93.0,
           "confidence": "medium"
         },
         "FIN-01": {
-          "raw_value": 58.0,
-          "normalized": 58.0,
-          "confidence": "high"
-        },
-        "FIN-02": {
-          "raw_value": 41.0,
-          "normalized": 41.0,
-          "confidence": "low"
+          "raw_value": 7.26,
+          "normalized": 7.3,
+          "confidence": "medium"
         },
         "GOV-01": {
-          "raw_value": 66.0,
-          "normalized": 66.0,
+          "raw_value": 63.6,
+          "normalized": 63.6,
           "confidence": "medium"
         },
         "GOV-02": {
-          "raw_value": 54.0,
-          "normalized": 54.0,
-          "confidence": "medium"
+          "raw_value": 88.7,
+          "normalized": 88.7,
+          "confidence": "high"
         },
         "ECO-01": {
-          "raw_value": 47.0,
-          "normalized": 47.0,
+          "raw_value": 57.1,
+          "normalized": 57.1,
           "confidence": "medium"
         },
         "ECO-02": {
-          "raw_value": 0.9,
-          "normalized": 18.0,
+          "raw_value": 0.149,
+          "normalized": 3.0,
           "confidence": "low"
         },
         "AI-01": {
-          "raw_value": 39.0,
-          "normalized": 39.0,
+          "raw_value": 52.1,
+          "normalized": 52.1,
           "confidence": "medium"
         },
         "AI-02": {
-          "raw_value": 33.0,
-          "normalized": 33.0,
-          "confidence": "low"
+          "raw_value": 49,
+          "normalized": 49.0,
+          "confidence": "medium"
         }
       },
-      "missing_indicators": []
+      "missing_indicators": [
+        "FIN-02"
+      ],
+      "forecast": {
+        "as_of": "2026-09-02",
+        "target_year": 2030,
+        "base": 56,
+        "upside": 66,
+        "downside": 44,
+        "reasoning": "South Africa's ADCI (49.1) is unchanged for a second straight week, and this week's evidence reinforces rather than resolves the central open question: FIN-01 (7.26, still the dataset's lowest score) sits against a strong, independently-corroborated digital-finance picture -- Chainalysis's own regional report now confirms South Africa as the #2 Sub-Saharan African crypto market by dollar volume, alongside the pilot's best Government pillar (76.2) and strong Infrastructure (84.3). Base case holds: this construct mismatch persists through 2030 absent a registry revision, meaning South Africa's headline ADCI likely continues to understate its actual digital-finance maturity. Upside case is now more concrete than last cycle: if FIN-02 access is resolved (a specific global Chainalysis rank located, or a documented fallback construct adopted per this week's Red Team Finding 4), South Africa's Finance pillar likely improves further given its confirmed strong regional standing -- this is no longer speculative, it's a data-access problem with identifiable fixes. Downside case is unchanged: continued VC cooldown (H1 2026 at $83M, missing $100M) softening ECO-01/ECO-02 from an already-weak base."
+      },
+      "name": "South Africa"
     },
     "NGA": {
-      "adci_score": 57.2,
-      "pillars": {
-        "Infrastructure": {
-          "score": 55.4,
-          "n_indicators": 1,
-          "partial": false,
-          "min_confidence": "high"
-        },
-        "Finance": {
-          "score": 71.3,
-          "n_indicators": 2,
-          "partial": false,
-          "min_confidence": "medium"
-        },
-        "Government": {
-          "score": 58.0,
-          "n_indicators": 1,
-          "partial": false,
-          "min_confidence": "medium"
-        },
-        "AI": {
-          "score": 44.0,
-          "n_indicators": 1,
-          "partial": false,
-          "min_confidence": "medium"
-        }
-      },
-      "indicators": {
-        "INF-01": {
-          "raw_value": 55.4,
-          "normalized": 55.4,
-          "confidence": "high"
-        },
-        "FIN-01": {
-          "raw_value": 74.0,
-          "normalized": 74.0,
-          "confidence": "high"
-        },
-        "FIN-02": {
-          "raw_value": 68.0,
-          "normalized": 68.0,
-          "confidence": "medium"
-        },
-        "GOV-01": {
-          "raw_value": 58.0,
-          "normalized": 58.0,
-          "confidence": "medium"
-        },
-        "AI-01": {
-          "raw_value": 44.0,
-          "normalized": 44.0,
-          "confidence": "medium"
-        }
-      },
-      "missing_indicators": []
-    },
-    "KEN": {
       "adci_score": 53.2,
       "pillars": {
         "Infrastructure": {
-          "score": 42.0,
-          "n_indicators": 1,
+          "score": 72.2,
+          "n_indicators": 2,
           "partial": false,
           "min_confidence": "medium"
         },
         "Finance": {
-          "score": 81.0,
-          "n_indicators": 1,
+          "score": 70.5,
+          "n_indicators": 2,
           "partial": false,
-          "min_confidence": "high"
+          "min_confidence": "medium"
         },
         "Government": {
-          "score": 61.0,
-          "n_indicators": 1,
+          "score": 56.4,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Economy": {
+          "score": 23.9,
+          "n_indicators": 2,
           "partial": false,
           "min_confidence": "medium"
         },
         "AI": {
-          "score": 28.7,
+          "score": 43.2,
           "n_indicators": 2,
           "partial": false,
-          "min_confidence": "low"
+          "min_confidence": "medium"
         }
       },
       "indicators": {
         "INF-01": {
-          "raw_value": 42.0,
-          "normalized": 42.0,
+          "raw_value": 53.0,
+          "normalized": 53.0,
+          "confidence": "medium"
+        },
+        "INF-02": {
+          "raw_value": 1.71,
+          "normalized": 91.5,
           "confidence": "medium"
         },
         "FIN-01": {
-          "raw_value": 81.0,
-          "normalized": 81.0,
-          "confidence": "high"
+          "raw_value": 49.45,
+          "normalized": 49.5,
+          "confidence": "medium"
+        },
+        "FIN-02": {
+          "raw_value": 96.7,
+          "normalized": 96.7,
+          "confidence": "medium"
         },
         "GOV-01": {
-          "raw_value": 61.0,
-          "normalized": 61.0,
+          "raw_value": 59.1,
+          "normalized": 59.1,
+          "confidence": "medium"
+        },
+        "GOV-02": {
+          "raw_value": 53.7,
+          "normalized": 53.7,
+          "confidence": "high"
+        },
+        "ECO-01": {
+          "raw_value": 48.7,
+          "normalized": 48.7,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.201,
+          "normalized": 4.0,
           "confidence": "medium"
         },
         "AI-01": {
-          "raw_value": 30.0,
-          "normalized": 30.0,
-          "confidence": "low"
+          "raw_value": 37.7,
+          "normalized": 37.7,
+          "confidence": "medium"
         },
         "AI-02": {
-          "raw_value": 27.0,
-          "normalized": 27.0,
-          "confidence": "low"
+          "raw_value": 50,
+          "normalized": 50.0,
+          "confidence": "medium"
         }
       },
-      "missing_indicators": []
+      "missing_indicators": [],
+      "forecast": {
+        "as_of": "2026-09-02",
+        "target_year": 2030,
+        "base": 59,
+        "upside": 70,
+        "downside": 48,
+        "reasoning": "Nigeria's ADCI (53.2) is unchanged for a second straight week and remains the pilot's most complete dataset (10 of 10 indicators). Base case is unchanged from last cycle: FIN-01's registration-based construct (49.5) and FIN-02's rank-based conversion (96.7, confirmed stable at rank #6 this cycle, no further correction needed) continue on their current trajectories, with NIN enrollment progressing toward its 82%-by-end-2026 target. Upside case still hinges on whether the H1 2026 equity-funding reversal ($214M, first continental equity lead since 2022) holds through a full year -- no fuller-year data has emerged yet to confirm or deny this, so the case is carried forward unchanged rather than strengthened or weakened. Downside case is unchanged: GOV-02 (53.7, lowest of the three pilot countries) remains the clearest structural drag if e-government service delivery does not improve."
+      },
+      "name": "Nigeria"
+    },
+    "KEN": {
+      "adci_score": 48.8,
+      "pillars": {
+        "Infrastructure": {
+          "score": 61.0,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 52.6,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 59.2,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        },
+        "Economy": {
+          "score": 29.9,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "AI": {
+          "score": 41.4,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 35.0,
+          "normalized": 35.0,
+          "confidence": "medium"
+        },
+        "INF-02": {
+          "raw_value": 2.62,
+          "normalized": 86.9,
+          "confidence": "medium"
+        },
+        "FIN-01": {
+          "raw_value": 52.6,
+          "normalized": 52.6,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 40.6,
+          "normalized": 40.6,
+          "confidence": "low"
+        },
+        "GOV-02": {
+          "raw_value": 77.7,
+          "normalized": 77.7,
+          "confidence": "high"
+        },
+        "ECO-01": {
+          "raw_value": 49.6,
+          "normalized": 49.6,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.706,
+          "normalized": 14.1,
+          "confidence": "medium"
+        },
+        "AI-01": {
+          "raw_value": 49.7,
+          "normalized": 49.7,
+          "confidence": "medium"
+        },
+        "AI-02": {
+          "raw_value": 31,
+          "normalized": 31.0,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "FIN-02"
+      ],
+      "forecast": {
+        "as_of": "2026-09-02",
+        "target_year": 2030,
+        "base": 53,
+        "upside": 63,
+        "downside": 41,
+        "reasoning": "Kenya's ADCI (48.8) is unchanged for a second straight week. This cycle's most consequential finding is methodological, not numerical: GOV-01's stale 2024 base is now confirmed, via a direct check of immigration.go.ke, to reflect a genuine primary-source reporting gap rather than lazy secondary citation -- three consecutive cycles have failed to locate a fresher figure by any method. Base case is nudged slightly down from last cycle (54 to 53) to reflect that this is looking less like a temporary data lag and more like a durable measurement problem that will keep GOV-01 understated (and low-confidence) for the foreseeable future unless Kenya's government changes its own reporting practices. Upside case unchanged in substance but now conditional on something more specific: a change in *government reporting behavior*, not just Claude searching harder. Kenya's FIN-01 strength (52.6, still the pilot's best on a like-for-like usage basis) continues independent of the GOV-01 story, per prior Integration notes -- M-Pesa's rail predates and doesn't depend on Maisha Namba. Downside case unchanged: continued institutional friction plus a weak H1 2026 VC showing, still unconfirmed against a fuller-year figure, compounding an already-weak Economy pillar."
+      },
+      "name": "Kenya"
     }
+  },
+  "note": "Week three of real data. Scores are UNCHANGED from last week for all three countries (South Africa 49.1, Nigeria 53.2, Kenya 48.8) -- this cycle re-verified every existing indicator against a live source rather than carrying values forward blind, and confirmed no update exists yet for any of them. Two developments worth flagging even though they didn't move a score: (1) Kenya's stale GOV-01 figure (40.6%, from a May 2024 government statement) was checked directly against the primary source (immigration.go.ke) this cycle and confirmed to be a genuine primary-source reporting gap, not a secondary-press citation problem; (2) South Africa's and Kenya's missing FIN-02 (crypto adoption) is now understood to be a structural data-access limitation -- Chainalysis's own regional report gives real context for both countries but not the specific global rank this indicator's formula needs. See this week's brief and red-team report for detail. Sample/synthetic data from 2026-08-18 remains excluded from these trend lines per the project README.",
+  "history": {
+    "ZAF": [
+      {
+        "week": "2026-08-19",
+        "adci_score": 50.8
+      },
+      {
+        "week": "2026-08-26",
+        "adci_score": 49.1
+      },
+      {
+        "week": "2026-09-02",
+        "adci_score": 49.1
+      }
+    ],
+    "NGA": [
+      {
+        "week": "2026-08-19",
+        "adci_score": 58.5
+      },
+      {
+        "week": "2026-08-26",
+        "adci_score": 53.2
+      },
+      {
+        "week": "2026-09-02",
+        "adci_score": 53.2
+      }
+    ],
+    "KEN": [
+      {
+        "week": "2026-08-19",
+        "adci_score": 55.7
+      },
+      {
+        "week": "2026-08-26",
+        "adci_score": 48.8
+      },
+      {
+        "week": "2026-09-02",
+        "adci_score": 48.8
+      }
+    ]
   }
 }
