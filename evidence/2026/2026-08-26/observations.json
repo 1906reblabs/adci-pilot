@@ -1,0 +1,469 @@
+[
+  {
+    "country": "ZAF",
+    "indicator": "INF-01",
+    "value": 75.6,
+    "unit": "%",
+    "as_of_date": "2026-03-31",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-INF-01-02"
+    ],
+    "previous_value": 75.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged from 2026-08-19 -- same ICASA+StatsSA source, no newer edition found this cycle.",
+    "pillar_commentary": "Internet usage (75.6%) remains well ahead of Kenya and roughly comparable to Nigeria's regulator-reported figure, unchanged this cycle -- no new survey data emerged to update the picture from last week."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "INF-02",
+    "value": 1.41,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-INF-02-02"
+    ],
+    "previous_value": 1.41,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same A4AI proxy.",
+    "pillar_commentary": "South Africa remains the most affordable of the three pilot markets on the A4AI proxy, unchanged this cycle."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-01",
+    "value": 7.26,
+    "unit": "index",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-FIN-01-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle -- fills South Africa's previously-completely-empty Finance pillar. IMF Financial Access Survey active mobile-money accounts (72.57/1000 adults -> 7.26/100). Genuinely demand-side, Tier 1. However this number is low mainly because South Africa's digital-payment activity runs through bank rails/cards/PayShap rather than telco-style mobile money -- flagged for Red Team as a likely measurement-validity/construct issue with how FIN-01 is defined, not a sign South Africa lacks digital payments (see INF/GOV/ECO evidence this week showing a mature, highly digitized economy).",
+    "pillar_commentary": "South Africa's first-ever FIN-01 figure (7.26) looks weak next to Kenya's and Nigeria's, but this likely reflects an indicator-definition mismatch rather than a real gap: South Africa's digital payments run mainly through PayShap, EFT and card rails (SARB reports 725 million PayShap transactions since 2023 launch, R659bn in value) rather than telco-style mobile money, which is what this indicator's underlying IMF series specifically measures. Read alongside GOV-02 and INF-01, South Africa looks like a highly digitized economy whose finance pillar is simply mis-measured by a mobile-money-specific lens."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-26",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence again this cycle -- Chainalysis's 2025 index (current edition) does not list South Africa in its top-20 table and a specific SA rank/score was not located within this cycle's search budget. Priority target for next cycle: Chainalysis's full country list (beyond top 20) or Sub-Saharan Africa regional report may carry it."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-01",
+    "value": 63.6,
+    "unit": "%",
+    "as_of_date": "2026-07-29",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-GOV-01-03"
+    ],
+    "previous_value": 63.6,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same DHA Smart ID migration computation."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-02",
+    "value": 88.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-GOV-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle -- fills a gap that was empty for all three countries last week. UN E-Government Survey 2024 Online Service Index x100. Tier 1, unambiguous. Note as_of_date reflects the UN's 2024 survey vintage (biennial survey; 2026 edition not yet published).",
+    "pillar_commentary": "South Africa posts the highest Online Service Index of the three pilot countries (88.7) -- consistent with its position as one of only two African countries in the UN's 'very high EGDI' group."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-01",
+    "value": 57.1,
+    "unit": "index",
+    "as_of_date": "2026-05-19",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-ECO-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. StartupBlink 2026 Global Startup Ecosystem Index rank (#52 of 120) converted via documented formula 100*(N-rank)/(N-1). This is the same ordinal-to-index convention applied to NGA FIN-02 and all three ECO-01 observations this cycle, directly addressing last week's Red Team Finding 2 request for a consistent, documented method.",
+    "pillar_commentary": "A StartupBlink rank of 52nd globally is the best of the three pilot countries this cycle, consistent with this week's Partech evidence showing South Africa reclaiming continental equity-funding leadership in 2025 -- though H1 2026 momentum has since cooled sharply."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-02",
+    "value": 0.149,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "low",
+    "source_ids": [
+      "ZAF-ECO-02-03"
+    ],
+    "previous_value": 0.149,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same Partech FY2025/IMF GDP computation and same GDP-denominator sensitivity flagged last week. H1 2026 Partech data shows South Africa's funding pace has slowed sharply ($83M, missing the $100M mark for H1) -- flagged as forward-looking context for Integration/Forecast agents, not applied to this week's annualized figure.",
+    "pillar_commentary": "Unchanged this cycle; H1 2026 Partech data suggests this figure may soften next full-year cycle given South Africa's slow H1 ($83M, missing the $100M mark)."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-01",
+    "value": 52.1,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-01-02"
+    ],
+    "previous_value": 52.1,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged, now with a second independent secondary citation (Naija247news) of the same PwC/Strategy& report, strengthening the evidence base versus last week's single citation.",
+    "pillar_commentary": "Unchanged and now more solidly corroborated -- South Africa remains the pilot set's AI-talent leader."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-02",
+    "value": 49,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. TechCabal Insights tracked count of AI-native startups (49), used directly as index value under the registry's 0-100 bounds. A much larger SAP/Vanson Bourne count (726) exists but uses a broader 'AI-focused' (not AI-native) definition -- genuine definitional difference, not a factual contradiction, noted for Red Team.",
+    "pillar_commentary": "49 tracked AI-native startups, concentrated in finance and software development per TechCabal's sector breakdown -- consistent with South Africa's broader fintech-heavy digital economy."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-01",
+    "value": 53.0,
+    "unit": "%",
+    "as_of_date": "2026-01-31",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-01-02"
+    ],
+    "previous_value": 53.0,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same NCC-sourced figure, same unreconciled ~7.5pp gap vs. Kepios noted last week still applies (no new evidence to resolve it this cycle).",
+    "pillar_commentary": "Unchanged this cycle; the ~7.5pp NCC-vs-Kepios gap flagged last week remains unresolved."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-02",
+    "value": 1.71,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-02-02"
+    ],
+    "previous_value": 1.71,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same A4AI proxy.",
+    "pillar_commentary": "Nigeria remains the cheapest data market in the pilot set, unchanged this cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-01",
+    "value": 49.45,
+    "unit": "index",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-01-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. IMF Financial Access Survey REGISTERED mobile-money accounts (494.5/1000 adults -> 49.45/100) -- IMF has no current 'active' accounts series for Nigeria, so this is the best available Tier-1 figure, but it repeats the same supply-side/registration construct issue the Red Team flagged for Kenya last week (Finding 1), now recurring for a different country. Confidence held at medium rather than high for this reason.",
+    "pillar_commentary": "Nigeria's first FIN-01 figure (49.45) is a registered-account measure, not usage -- the same construct gap flagged for Kenya last week. NIBSS's own reporting (11 billion instant-payment transactions in 2024) suggests real usage intensity is far higher than a registration count alone would indicate, but that transaction-volume figure doesn't map cleanly onto this indicator's 0-100 scale without a defined transformation -- a genuine indicator-design gap worth resolving before FIN-01 comparisons across countries are treated as reliable."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-02",
+    "value": 96.7,
+    "unit": "index",
+    "as_of_date": "2025-09-02",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-02-02"
+    ],
+    "previous_value": 98.7,
+    "change": -2.0,
+    "notes": "IMPORTANT: this -2.0 change is NOT a real-world shift. Last week's value (98.7, implying rank #2) was based on a stale or incorrect Chainalysis vintage. The current (Sept 2025, still-current) Chainalysis Global Crypto Adoption Index shows Nigeria at rank #6 of 151, converted via this week's documented ordinal-to-index formula: 100*(151-6)/(151-1)=96.7. The underlying real-world story (Nigeria's rank fell from #2 in the prior index edition to #6 in the 2025 edition, per Chainalysis's own reporting) predates this week and was not correctly reflected last week. This is a data correction, not a weekly trend -- flagged prominently for the Editor and Red Team so it is not read as a one-week decline.",
+    "pillar_commentary": "This week's correction (98.7 to 96.7, reflecting rank #2 to rank #6) is a data-vintage fix, not a real decline -- see observation notes. The real story per Chainalysis's own 2025 report is a genuine relative slip versus faster-growing peers (India, US, Pakistan, Vietnam, Brazil), while Nigeria's underlying on-chain volume continues to grow in absolute terms, driven by naira-hedging stablecoin use."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-01",
+    "value": 59.1,
+    "unit": "%",
+    "as_of_date": "2026-06-05",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-GOV-01-02"
+    ],
+    "previous_value": 59.1,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same NIMC NIN enrollment figure.",
+    "pillar_commentary": "Unchanged this cycle; NIN enrollment continues toward its revised 82%-by-end-2026 target."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-02",
+    "value": 53.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "NGA-GOV-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. UN E-Government Survey 2024 Online Service Index x100. Tier 1.",
+    "pillar_commentary": "Nigeria's Online Service Index (53.7) is the lowest of the three pilot countries, and its overall EGDI rank (144th of 193) sits well behind Kenya (109th) and South Africa (40th) -- a genuine relative gap in e-government service maturity rather than a data-availability artifact, since all three used the identical UN methodology this cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-01",
+    "value": 48.7,
+    "unit": "index",
+    "as_of_date": "2026-05-20",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. StartupBlink 2026 rank (#62 of 120, +4 spots vs. 2025) via documented formula.",
+    "pillar_commentary": "A StartupBlink rank of 62nd (+4 spots vs. 2025) shows Nigeria's startup ecosystem improving in relative global standing even as its FY2025 VC capital lagged regional peers -- and H1 2026 data (see ECO-02 notes) suggests that VC gap may already be closing."
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-02",
+    "value": 0.201,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-02-03"
+    ],
+    "previous_value": 0.201,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same Partech FY2025/IMF GDP computation. H1 2026 data (see notes elsewhere) shows Nigeria actually LED continental equity funding in H1 2026 ($214M) for the first time since 2022 -- a striking reversal from the FY2025 story of Nigeria as the only pilot country with declining VC capital. This is flagged as major forward-looking context for the Integration and Forecast agents, not applied retroactively to this week's annualized figure.",
+    "pillar_commentary": "Unchanged this cycle on an annualized basis, but H1 2026 data shows Nigeria leading continental equity funding for the first time since 2022 ($214M) -- a striking reversal from FY2025's story of Nigeria as the only pilot country with declining VC capital, plausibly tied to naira stabilization. Watch for this to show up in the annualized figure next full-year cycle."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-01",
+    "value": 37.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-AI-01-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle -- last week only had Nigeria's RANK (18th of 54), not the actual score. Now sourced: 37.7, corroborated by two independent secondary citations of the same PwC/Strategy& report.",
+    "pillar_commentary": "Nigeria's actual score (37.7) is now on record for the first time, confirming last week's inference from rank alone (18th of 54) -- a real, not just relative, talent-readiness gap versus South Africa (52.1) and Kenya (49.7)."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-02",
+    "value": 50,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-AI-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. TechCabal Insights AI-native startup count (50, the continental leader among all African countries tracked). Same SAP definitional-conflict caveat as ZAF-AI-02 applies.",
+    "pillar_commentary": "Nigeria has the largest tracked AI-native startup count of any African country (50), leading in healthcare, software development, finance and legal AI per TechCabal's sector breakdown -- consistent with Nigeria's broader reputation as the continent's largest startup hub by volume, even where average deal sizes lag Kenya and South Africa (see ECO-01/ECO-02)."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-01",
+    "value": 35.0,
+    "unit": "%",
+    "as_of_date": "2025-08-11",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-01-02"
+    ],
+    "previous_value": 35.0,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same CA+KNBS demand-side survey.",
+    "pillar_commentary": "Unchanged this cycle; the CA+KNBS demand-side figure (35.0%) continues to undercut both the Kepios modeled estimate and Kenya's near-universal mobile/mobile-money penetration, underscoring a real gap between connectivity and active internet use."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-02",
+    "value": 2.62,
+    "unit": "%",
+    "as_of_date": "2026-06-15",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-02-02"
+    ],
+    "previous_value": 2.62,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same A4AI proxy.",
+    "pillar_commentary": "Kenya remains the only pilot country missing the UN Broadband Commission's affordability target, unchanged this cycle."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-01",
+    "value": 52.6,
+    "unit": "index",
+    "as_of_date": "2024-12-03",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-FIN-01-02"
+    ],
+    "previous_value": 98.0,
+    "change": -45.4,
+    "notes": "IMPORTANT: this large drop is a METHODOLOGY CORRECTION, not a real-world collapse in mobile-money usage. Last week's value (98.0) was flagged BLOCKING by the Red Team as a supply-side registration measure. This week's figure (52.6% of Kenyans using mobile money DAILY, from the CBK/KNBS/FSD Kenya 2024 FinAccess survey -- the demand-side survey the Red Team specifically recommended) is a genuinely different, more accurate construct, not a 45-point real decline. Resolves last week's Finding 1. Flagged prominently for the Editor so this is not misread as a crash.",
+    "pillar_commentary": "This week's correction from a registration-based 98.0 to a usage-based 52.6 resolves last week's blocking finding and is a genuinely more honest number -- but it's still the CLEAR highest FIN-01 figure of the three pilot countries by a wide margin, meaning M-Pesa's daily-active-usage rate alone outperforms South Africa's and Nigeria's account-based IMF figures. This is a real signal, not just a smaller version of last week's overstatement."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-08-26",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence again this cycle -- same situation as last week (a 'debut top-20' mention exists but without a specific rank/score)."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-01",
+    "value": 40.6,
+    "unit": "%",
+    "as_of_date": "2024-05-08",
+    "confidence": "low",
+    "source_ids": [
+      "KEN-GOV-01-02"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle -- fills a gap that was empty last week. Computed as 13M Maisha Namba holders / 32M adult population per an official 2024 government statement. Confidence held at LOW: the statement is dated (May 2024, ~27 months old) and more recent 2026 secondary sources keep citing the same '13 million' figure without update, despite the same 2024 statement's cited enrollment pace (20-30k/day) implying substantially higher coverage by now if sustained. This inconsistency is flagged explicitly for Red Team -- likely stale secondary-source citation rather than genuinely stalled enrollment, but not confirmed either way this cycle.",
+    "pillar_commentary": "Kenya's first GOV-01 figure (40.6%) is low-confidence and dated (a 2024 government statement), but directionally consistent with Maisha Namba's well-documented rollout friction (2023-24 court injunction, continued public scrutiny) -- see this week's Society note."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-02",
+    "value": 77.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "KEN-GOV-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. UN E-Government Survey 2024 Online Service Index x100. Tier 1. Notably the highest OSI of the three pilot countries despite Kenya's GOV-01 gap -- Kenya's e-government service maturity looks stronger than its digital-ID coverage story alone would suggest.",
+    "pillar_commentary": "Kenya posts the second-highest Online Service Index of the three pilot countries (77.7), ahead of Nigeria and only modestly behind South Africa -- notable given Kenya's much lower GOV-01 figure, suggesting Kenya's e-government portal maturity has outpaced its underlying digital-ID coverage."
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-01",
+    "value": 49.6,
+    "unit": "index",
+    "as_of_date": "2026-07-01",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-01-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. StartupBlink 2026 rank (#61 of 120) via documented formula.",
+    "pillar_commentary": "A StartupBlink rank of 61st sits between South Africa and Nigeria, broadly consistent with Kenya's continued lead in total VC capital raised (see ECO-02) even as H1 2026 momentum has cooled."
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-02",
+    "value": 0.706,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-02-03"
+    ],
+    "previous_value": 0.706,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged -- same Partech FY2025/IMF GDP computation. H1 2026 data shows Kenya's weakest first-half performance since early 2021 ($126M) -- flagged as forward-looking context, not applied to this week's annualized figure.",
+    "pillar_commentary": "Unchanged this cycle; H1 2026 data shows Kenya's weakest first-half performance since early 2021, a marked cooldown from FY2025's continental-leading pace."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-01",
+    "value": 49.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-01-02"
+    ],
+    "previous_value": 49.7,
+    "change": 0.0,
+    "notes": "Re-confirmed unchanged, now with a second independent secondary citation strengthening the evidence base.",
+    "pillar_commentary": "Unchanged and now more solidly corroborated -- Kenya remains close behind South Africa in talent readiness despite a much smaller economy."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-02",
+    "value": 31,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW this cycle. TechCabal Insights AI-native startup count (31, lowest raw count of the three pilot countries) -- but the SAME source reports Kenya's AI startups are the most ADVANCED of the three by stage-mix (42% in growth phase vs. 24-25% for Nigeria/South Africa). Raw count and maturity tell different stories; both captured in pillar commentary.",
+    "pillar_commentary": "Kenya has the fewest tracked AI-native startups of the three pilot countries (31) but the most advanced ecosystem by stage-mix (42% in growth phase, vs. 24-25% for Nigeria/South Africa) -- a genuine quality-over-quantity signal consistent with Nairobi's 'Silicon Savannah' reputation for mature healthtech/agritech AI applications."
+  },
+  {
+    "country": "KEN",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "The fact that Kenya's most recent officially-sourced Maisha Namba coverage figure traces to a May 2024 conference statement -- with 2026 press coverage still citing the same '13 million' base despite an implied daily enrollment pace that should have moved the number considerably by now -- is itself a transparency signal worth tracking: public reporting on digital-ID coverage appears to have gone quiet even as card issuance and backlog-clearing activity continue. A future Society indicator on 'digital-ID reporting cadence/transparency' could capture this directly rather than leaving it implicit in GOV-01's confidence rating.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "NGA",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "CBN's own Fintech Policy Insight Report (Feb 2026) pairs Nigeria's headline digital-payments scale (11 billion NIP transactions in 2024) with a stark exclusion figure: 26% of adults remain financially excluded, rising to 47% in northern Nigeria. This volume-vs-inclusion gap -- extremely high aggregate digital activity coexisting with deep regional exclusion -- is a pattern a future Society/inclusion indicator should capture directly, since FIN-01 alone (an aggregate measure) cannot distinguish 'everyone transacts a lot' from 'a subset of the population transacts a great deal.'",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "ZAF",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "This week's FIN-01 result illustrates a broader measurement-equity question worth flagging for future methodology review: indicators built around 'mobile money' as a construct (common across global indices, including IMF's own Financial Access Survey categories) implicitly center a West/East African financial-inclusion model and may systematically under-measure countries like South Africa where digital financial inclusion runs through bank/card rails instead. Worth considering a rail-agnostic 'digital payment penetration' construct for a future indicator revision.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  }
+]
