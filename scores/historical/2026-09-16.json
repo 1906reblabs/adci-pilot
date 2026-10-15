@@ -1,0 +1,281 @@
+{
+  "week": "2026-09-16",
+  "generated_at": "2026-10-03T01:32:24.824908+00:00",
+  "countries": {
+    "ZAF": {
+      "adci_score": 55.0,
+      "pillars": {
+        "Infrastructure": {
+          "score": 75.6,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "high"
+        },
+        "Finance": {
+          "score": 45.4,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 76.2,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        },
+        "Economy": {
+          "score": 27.0,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        },
+        "AI": {
+          "score": 50.7,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 75.6,
+          "normalized": 75.6,
+          "confidence": "high"
+        },
+        "FIN-01": {
+          "raw_value": 7.26,
+          "normalized": 7.3,
+          "confidence": "medium"
+        },
+        "FIN-02": {
+          "raw_value": 93.1,
+          "normalized": 93.1,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 63.6,
+          "normalized": 63.6,
+          "confidence": "low"
+        },
+        "GOV-02": {
+          "raw_value": 88.7,
+          "normalized": 88.7,
+          "confidence": "high"
+        },
+        "ECO-01": {
+          "raw_value": 57.1,
+          "normalized": 57.1,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.149,
+          "normalized": 3.0,
+          "confidence": "low"
+        },
+        "AI-01": {
+          "raw_value": 52.1,
+          "normalized": 52.1,
+          "confidence": "medium"
+        },
+        "AI-02": {
+          "raw_value": 49,
+          "normalized": 49.0,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "INF-02"
+      ],
+      "forecast": {
+        "as_of": "2026-09-16",
+        "target_year": 2030,
+        "base": 58,
+        "upside": 67,
+        "downside": 46,
+        "reasoning": "South Africa's 55.0 is unchanged from 2026-09-09 and, as the Red Team notes, its lead over Nigeria depends on FIN-02 (rank 9 of 117) being present; without it the score would be about 47. No new evidence moved the forecast, so the 2030 range is carried forward. Base (58) assumes Government keeps compounding (bank-distributed Smart IDs, a green-ID cut-off) while FIN-01's mobile-money construct keeps understating bank/card/PayShap activity. Upside (67) needs a rail-agnostic FIN-01 and a restored INF-02. Downside (46) is a persistent VC cooldown (H1 2026 $83M, per 2026-09-09 evidence) with Economy (27.0) staying the weakest pillar. Real history is thin: five real weeks, several containing measurement corrections."
+      }
+    },
+    "NGA": {
+      "adci_score": 50.7,
+      "pillars": {
+        "Infrastructure": {
+          "score": 56.1,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 71.2,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 59.1,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "Economy": {
+          "score": 23.9,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "AI": {
+          "score": 43.2,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 56.1,
+          "normalized": 56.1,
+          "confidence": "medium"
+        },
+        "FIN-01": {
+          "raw_value": 49.45,
+          "normalized": 49.5,
+          "confidence": "medium"
+        },
+        "FIN-02": {
+          "raw_value": 98.3,
+          "normalized": 98.3,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 64.5,
+          "normalized": 64.5,
+          "confidence": "medium"
+        },
+        "GOV-02": {
+          "raw_value": 53.7,
+          "normalized": 53.7,
+          "confidence": "high"
+        },
+        "ECO-01": {
+          "raw_value": 48.7,
+          "normalized": 48.7,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.201,
+          "normalized": 4.0,
+          "confidence": "medium"
+        },
+        "AI-01": {
+          "raw_value": 37.7,
+          "normalized": 37.7,
+          "confidence": "medium"
+        },
+        "AI-02": {
+          "raw_value": 50,
+          "normalized": 50.0,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "INF-02"
+      ],
+      "forecast": {
+        "as_of": "2026-09-16",
+        "target_year": 2030,
+        "base": 58,
+        "upside": 69,
+        "downside": 47,
+        "reasoning": "Nigeria's 50.7 is unchanged. Base (58) assumes INF-02 returns at a favourable level once re-sourced, NIN enrolment keeps rising toward the end-2026 target (142M, with the caveat that enrolled is not issued), and crypto leadership persists (rank 3 of 117). It is held back by GOV-02 (53.7, lowest of three) and by FIN-01 being a registration count. Upside (69) needs the H1 2026 equity lead to hold across a full year and identity enrolment to convert into services. Downside (47): naira stress keeps stablecoin use high while formal investment weakens, and enrolment gains stall on the denominator. Carried forward unchanged because no new evidence bears on it."
+      }
+    },
+    "KEN": {
+      "adci_score": 43.6,
+      "pillars": {
+        "Infrastructure": {
+          "score": 35.0,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Finance": {
+          "score": 52.6,
+          "n_indicators": 1,
+          "partial": true,
+          "min_confidence": "medium"
+        },
+        "Government": {
+          "score": 59.2,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "low"
+        },
+        "Economy": {
+          "score": 29.9,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        },
+        "AI": {
+          "score": 41.4,
+          "n_indicators": 2,
+          "partial": false,
+          "min_confidence": "medium"
+        }
+      },
+      "indicators": {
+        "INF-01": {
+          "raw_value": 35.0,
+          "normalized": 35.0,
+          "confidence": "medium"
+        },
+        "FIN-01": {
+          "raw_value": 52.6,
+          "normalized": 52.6,
+          "confidence": "medium"
+        },
+        "GOV-01": {
+          "raw_value": 40.6,
+          "normalized": 40.6,
+          "confidence": "low"
+        },
+        "GOV-02": {
+          "raw_value": 77.7,
+          "normalized": 77.7,
+          "confidence": "high"
+        },
+        "ECO-01": {
+          "raw_value": 49.6,
+          "normalized": 49.6,
+          "confidence": "medium"
+        },
+        "ECO-02": {
+          "raw_value": 0.706,
+          "normalized": 14.1,
+          "confidence": "medium"
+        },
+        "AI-01": {
+          "raw_value": 49.7,
+          "normalized": 49.7,
+          "confidence": "medium"
+        },
+        "AI-02": {
+          "raw_value": 31,
+          "normalized": 31.0,
+          "confidence": "medium"
+        }
+      },
+      "missing_indicators": [
+        "INF-02",
+        "FIN-02"
+      ],
+      "forecast": {
+        "as_of": "2026-09-16",
+        "target_year": 2030,
+        "base": 51,
+        "upside": 61,
+        "downside": 39,
+        "reasoning": "Kenya's 43.6 is unchanged and is the lowest of the three, resting on 8 of 10 indicators. Base (51) assumes INF-02 is restored at a mid-range level, M-Pesa-driven FIN-01 (52.6 daily use) stays the pilot's best like-for-like reading, and GOV-01 stays low-confidence (fifth week with no Maisha Namba coverage figure). Upside (61) needs a published coverage figure and FIN-02 resolved. Downside (39) combines the weakest H1 funding since early 2021 (per 2026-09-09 evidence), continued ID-reporting opacity, and a restored INF-02 that confirms Kenya misses the affordability benchmark. Carried forward unchanged."
+      }
+    }
+  }
+}
