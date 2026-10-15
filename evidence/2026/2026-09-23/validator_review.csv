@@ -1,0 +1,31 @@
+claim_id,validator_pass,validator_notes
+ZAF-INF-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-FIN-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-FIN-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-GOV-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-GOV-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-ECO-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-ECO-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-AI-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-AI-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-INF-01-10-C1,true,"Unit % consistent with registry; date July 2026 stated; same series as prior cycle, change +1.3pp plausible against monthly trend; reproducible from NCC table."
+NGA-FIN-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-FIN-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-GOV-01-10-C1,true,"Arithmetic 142/220=64.5 correct. Denominator assumed, flagged. Reproducible."
+NGA-GOV-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-ECO-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-ECO-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-AI-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+NGA-AI-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-INF-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-FIN-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-GOV-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-GOV-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-ECO-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-ECO-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-AI-01-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+KEN-AI-02-10-C1,true,Carry-forward of previously validated claim; unit/date unchanged; internally consistent. Not a live verification.
+ZAF-INF-02-10-C1,false,"Stale vintage (2020 data, 2021 article); fails as_of plausibility for a 2026 observation. Same finding as 2026-09-09."
+NGA-INF-02-10-C1,false,"Stale vintage (2020 data, 2021 article); fails as_of plausibility for a 2026 observation. Same finding as 2026-09-09."
+KEN-INF-02-10-C1,false,"Stale vintage (2020 data, 2021 article); fails as_of plausibility for a 2026 observation. Same finding as 2026-09-09."
+NGA-INF-02-11-C1,false,"Different construct (1GB price / GNI, vendor-computed) from the registry's basket definition; not reproducible from a primary source."

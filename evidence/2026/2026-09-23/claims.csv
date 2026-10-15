@@ -1,1 +1,31 @@
-
+claim_id,source_id,country,indicator,value,unit,as_of_date,notes
+ZAF-INF-01-10-C1,ZAF-INF-01-10,ZAF,INF-01,75.6,%,2026-03-31,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-FIN-01-10-C1,ZAF-FIN-01-10,ZAF,FIN-01,7.26,index,2026-01-22,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-FIN-02-10-C1,ZAF-FIN-02-10,ZAF,FIN-02,93.1,index,2026-09-23,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-GOV-01-10-C1,ZAF-GOV-01-10,ZAF,GOV-01,63.6,%,2026-07-29,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-GOV-02-10-C1,ZAF-GOV-02-10,ZAF,GOV-02,88.7,%,2024-09-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-ECO-01-10-C1,ZAF-ECO-01-10,ZAF,ECO-01,57.1,index,2026-05-19,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-ECO-02-10-C1,ZAF-ECO-02-10,ZAF,ECO-02,0.149,%,2026-01-22,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-AI-01-10-C1,ZAF-AI-01-10,ZAF,AI-01,52.1,index,2025-08-25,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-AI-02-10-C1,ZAF-AI-02-10,ZAF,AI-02,49,index,2026-04-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-INF-01-10-C1,NGA-INF-01-10,NGA,INF-01,57.4,%,2026-07-31,"NCC series updated 56.1 (May) -> 57.4 (July). Subscription-based, not a survey of individuals (same caveat as before). Same series as prior cycle."
+NGA-FIN-01-10-C1,NGA-FIN-01-10,NGA,FIN-01,49.45,index,2026-01-22,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-FIN-02-10-C1,NGA-FIN-02-10,NGA,FIN-02,98.3,index,2026-09-23,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-GOV-01-10-C1,NGA-GOV-01-10,NGA,GOV-01,64.5,%,2026-09-16,142M / 220M assumed population (unchanged denominator). 200-250M gives ~71% to ~57%. Numerator includes legal residents. Live re-check found no newer NIMC figure than 142M.
+NGA-GOV-02-10-C1,NGA-GOV-02-10,NGA,GOV-02,53.7,%,2024-09-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-ECO-01-10-C1,NGA-ECO-01-10,NGA,ECO-01,48.7,index,2026-05-20,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-ECO-02-10-C1,NGA-ECO-02-10,NGA,ECO-02,0.201,%,2026-01-22,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-AI-01-10-C1,NGA-AI-01-10,NGA,AI-01,37.7,index,2025-08-25,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+NGA-AI-02-10-C1,NGA-AI-02-10,NGA,AI-02,50,index,2026-04-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-INF-01-10-C1,KEN-INF-01-10,KEN,INF-01,35.0,%,2025-08-11,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-FIN-01-10-C1,KEN-FIN-01-10,KEN,FIN-01,52.6,index,2024-12-03,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-GOV-01-10-C1,KEN-GOV-01-10,KEN,GOV-01,40.6,%,2024-05-08,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-GOV-02-10-C1,KEN-GOV-02-10,KEN,GOV-02,77.7,%,2024-09-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-ECO-01-10-C1,KEN-ECO-01-10,KEN,ECO-01,49.6,index,2026-07-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-ECO-02-10-C1,KEN-ECO-02-10,KEN,ECO-02,0.706,%,2026-01-22,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-AI-01-10-C1,KEN-AI-01-10,KEN,AI-01,49.7,index,2025-08-25,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+KEN-AI-02-10-C1,KEN-AI-02-10,KEN,AI-02,31,index,2026-04-01,CARRIED FORWARD from 2026-09-09; not re-verified live this run (see red_team.md Finding 4).
+ZAF-INF-02-10-C1,ZAF-INF-02-10,ZAF,INF-02,1.41,%,2020-12-31,Re-surfaced article; vintage is A4AI 2020 (publication date per 2026-09-09 finding). NOT a 2026 value.
+NGA-INF-02-10-C1,NGA-INF-02-10,NGA,INF-02,1.71,%,2020-12-31,Re-surfaced article; vintage is A4AI 2020 (publication date per 2026-09-09 finding). NOT a 2026 value.
+KEN-INF-02-10-C1,KEN-INF-02-10,KEN,INF-02,2.62,%,2020-12-31,Re-surfaced article; vintage is A4AI 2020 (publication date per 2026-09-09 finding). NOT a 2026 value.
+NGA-INF-02-11-C1,NGA-INF-02-11,NGA,INF-02,0.23,%,2026-06-01,"Vendor-computed, 1GB basis, different construct from the registry's basket definition."

@@ -1,0 +1,31 @@
+claim_id,critic_pass,source_tier_confirmed,critic_notes
+ZAF-INF-01-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-FIN-01-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-FIN-02-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-GOV-01-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-GOV-02-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-ECO-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-ECO-02-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-AI-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-AI-02-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-INF-01-10-C1,true,1,NCC is Tier-1 regulator; primary series. Subscription construct (multi-SIM) flagged; not a source-authority failure.
+NGA-FIN-01-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-FIN-02-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-GOV-01-10-C1,true,3,Press relay of on-record NIMC statement: Tier 3 by hierarchy; NIMC primary page not fetched. Value unchanged from prior validated claim.
+NGA-GOV-02-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-ECO-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-ECO-02-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-AI-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+NGA-AI-02-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-INF-01-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-FIN-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-GOV-01-10-C1,true,3,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-GOV-02-10-C1,true,1,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-ECO-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-ECO-02-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-AI-01-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+KEN-AI-02-10-C1,true,2,Carry-forward; source authority as previously confirmed. Not independently re-checked this run.
+ZAF-INF-02-10-C1,false,3,Tier-3 trade article citing A4AI 2020; original is 6 years old. Contradicts nothing but is superseded by ITU 2025 baskets (country values not retrievable).
+NGA-INF-02-10-C1,false,3,Tier-3 trade article citing A4AI 2020; original is 6 years old. Contradicts nothing but is superseded by ITU 2025 baskets (country values not retrievable).
+KEN-INF-02-10-C1,false,3,Tier-3 trade article citing A4AI 2020; original is 6 years old. Contradicts nothing but is superseded by ITU 2025 baskets (country values not retrievable).
+NGA-INF-02-11-C1,false,4,"Tier-4 commercial vendor, structurally interested (sells eSIMs); no primary-source methodology."

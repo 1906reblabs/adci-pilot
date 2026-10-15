@@ -1,0 +1,35 @@
+source_id,country,indicator,source_name,url,publish_date,claim,raw_value,unit,source_tier
+ZAF-INF-01-10,ZAF,INF-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-03-31,Carried-forward value 75.6,75.6,%,1
+ZAF-FIN-01-10,ZAF,FIN-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-01-22,Carried-forward value 7.26,7.26,index,1
+ZAF-FIN-02-10,ZAF,FIN-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-09-23,Carried-forward value 93.1,93.1,index,1
+ZAF-GOV-01-10,ZAF,GOV-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-07-29,Carried-forward value 63.6,63.6,%,1
+ZAF-GOV-02-10,ZAF,GOV-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2024-09-01,Carried-forward value 88.7,88.7,%,1
+ZAF-ECO-01-10,ZAF,ECO-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-05-19,Carried-forward value 57.1,57.1,index,2
+ZAF-ECO-02-10,ZAF,ECO-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-01-22,Carried-forward value 0.149,0.149,%,2
+ZAF-AI-01-10,ZAF,AI-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2025-08-25,Carried-forward value 52.1,52.1,index,2
+ZAF-AI-02-10,ZAF,AI-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-04-01,Carried-forward value 49,49,index,2
+NGA-INF-01-10,NGA,INF-01,"NCC Industry Statistics, broadband penetration (via Techeconomy/TheCable summaries)",https://ncc.gov.ng/market-data-reports/industry-statistics,2026-10-05,"Broadband penetration 57.4% in July 2026 (124.4M subscriptions); 56.79% June, 56.11% May",57.4,%,1
+NGA-FIN-01-10,NGA,FIN-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-01-22,Carried-forward value 49.45,49.45,index,1
+NGA-FIN-02-10,NGA,FIN-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-09-23,Carried-forward value 98.3,98.3,index,1
+NGA-GOV-01-10,NGA,GOV-01,"BusinessDay NG, citing NIMC DG statement (142M enrolled)",https://businessday.ng/news/article/nimc-enrolments-hit-142m-as-nigeria-expands-digital-identity-infrastructure/,2026-09-16,NIMC enrolment above 142M Nigerians and legal residents,142000000,count,3
+NGA-GOV-02-10,NGA,GOV-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2024-09-01,Carried-forward value 53.7,53.7,%,1
+NGA-ECO-01-10,NGA,ECO-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-05-20,Carried-forward value 48.7,48.7,index,2
+NGA-ECO-02-10,NGA,ECO-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-01-22,Carried-forward value 0.201,0.201,%,2
+NGA-AI-01-10,NGA,AI-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2025-08-25,Carried-forward value 37.7,37.7,index,2
+NGA-AI-02-10,NGA,AI-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-04-01,Carried-forward value 50,50,index,2
+KEN-INF-01-10,KEN,INF-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2025-08-11,Carried-forward value 35.0,35.0,%,1
+KEN-FIN-01-10,KEN,FIN-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2024-12-03,Carried-forward value 52.6,52.6,index,2
+KEN-GOV-01-10,KEN,GOV-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2024-05-08,Carried-forward value 40.6,40.6,%,3
+KEN-GOV-02-10,KEN,GOV-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2024-09-01,Carried-forward value 77.7,77.7,%,1
+KEN-ECO-01-10,KEN,ECO-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-07-01,Carried-forward value 49.6,49.6,index,2
+KEN-ECO-02-10,KEN,ECO-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-01-22,Carried-forward value 0.706,0.706,%,2
+KEN-AI-01-10,KEN,AI-01,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2025-08-25,Carried-forward value 49.7,49.7,index,2
+KEN-AI-02-10,KEN,AI-02,Carried forward from 2026-09-09 observation (not re-searched this run),n/a-carried-forward,2026-04-01,Carried-forward value 31,31,index,2
+ZAF-INF-02-10,ZAF,INF-02,"Connecting Africa, 'The state of mobile broadband affordability in Africa' (reports A4AI 2020 data)",https://www.connectingafrica.com/4g-networks/the-state-of-mobile-broadband-affordability-in-africa,2021-05-04,"1GB = 1.41% of average income (A4AI, 2020 data)",1.41,%,3
+NGA-INF-02-10,NGA,INF-02,"Connecting Africa, 'The state of mobile broadband affordability in Africa' (reports A4AI 2020 data)",https://www.connectingafrica.com/4g-networks/the-state-of-mobile-broadband-affordability-in-africa,2021-05-04,"1GB = 1.71% of average income (A4AI, 2020 data)",1.71,%,3
+KEN-INF-02-10,KEN,INF-02,"Connecting Africa, 'The state of mobile broadband affordability in Africa' (reports A4AI 2020 data)",https://www.connectingafrica.com/4g-networks/the-state-of-mobile-broadband-affordability-in-africa,2021-05-04,"1GB = 2.62% of average income (A4AI, 2020 data)",2.62,%,3
+ALL-INF-02-11,ZAF,INF-02,ITU Facts and Figures 2025: Affordability of ICT services (global/regional medians only),https://www.itu.int/itu-d/reports/statistics/2025/10/15/ff25-affordability-of-ict-services/,2025-10-15,Global median data-only mobile broadband basket 1.4% of GNI p.c. (2025); 130 of 205 economies meet 2% target,1.4,% (median),1
+NGA-INF-02-11,NGA,INF-02,"cellesim.com, Mobile Data Affordability by Country 2026 (Cable.co.uk prices / GNI)",https://cellesim.com/en/mobile-data-affordability-by-country-2026,2026-06-01,Nigeria 1GB = 0.23% of income,0.23,%,4
+KEN-FIN-02-10,KEN,FIN-02,"Chainalysis 2026 Global Crypto Adoption Index (official blog, top-20 table)",https://www.chainalysis.com/blog/2026-global-crypto-adoption-index/,2026-09-23,Kenya not listed in published top 20 of 117; specific rank not published in fetchable text,n/a,rank,1
+KEN-GOV-01-11,KEN,GOV-01,"Rio Times / Huduma Global (secondary), Maisha Namba 2026 rollout",https://www.riotimesonline.com/kenya-maisha-namba-digital-id-advances-2026/,2026-07-26,1.7M+ Maisha Cards printed; no population-denominated coverage figure,n/a,,3
+ALL-GOV-02-11,ZAF,GOV-02,Search for UN E-Government Survey 2026 edition,https://publicadministration.un.org/egovkb,2026-10-05,No 2026 edition found published; 2024 edition still the latest cited,n/a,,1
