@@ -1,27 +1,27 @@
 {
-  "week": "2026-09-02",
-  "generated_at": "2026-09-02T11:19:58.766853+00:00",
+  "week": "2026-09-09",
+  "generated_at": "2026-10-01T05:33:18.367491+00:00",
   "countries": {
     "ZAF": {
-      "adci_score": 49.1,
+      "adci_score": 55.0,
       "pillars": {
         "Infrastructure": {
-          "score": 84.3,
-          "n_indicators": 2,
-          "partial": false,
-          "min_confidence": "medium"
-        },
-        "Finance": {
-          "score": 7.3,
+          "score": 75.6,
           "n_indicators": 1,
           "partial": true,
+          "min_confidence": "high"
+        },
+        "Finance": {
+          "score": 45.4,
+          "n_indicators": 2,
+          "partial": false,
           "min_confidence": "medium"
         },
         "Government": {
           "score": 76.2,
           "n_indicators": 2,
           "partial": false,
-          "min_confidence": "medium"
+          "min_confidence": "low"
         },
         "Economy": {
           "score": 27.0,
@@ -42,20 +42,20 @@
           "normalized": 75.6,
           "confidence": "high"
         },
-        "INF-02": {
-          "raw_value": 1.41,
-          "normalized": 93.0,
-          "confidence": "medium"
-        },
         "FIN-01": {
           "raw_value": 7.26,
           "normalized": 7.3,
           "confidence": "medium"
         },
+        "FIN-02": {
+          "raw_value": 93.1,
+          "normalized": 93.1,
+          "confidence": "medium"
+        },
         "GOV-01": {
           "raw_value": 63.6,
           "normalized": 63.6,
-          "confidence": "medium"
+          "confidence": "low"
         },
         "GOV-02": {
           "raw_value": 88.7,
@@ -84,35 +84,35 @@
         }
       },
       "missing_indicators": [
-        "FIN-02"
+        "INF-02"
       ],
       "forecast": {
-        "as_of": "2026-09-02",
+        "as_of": "2026-09-09",
         "target_year": 2030,
-        "base": 56,
-        "upside": 66,
-        "downside": 44,
-        "reasoning": "South Africa's ADCI (49.1) is unchanged for a second straight week, and this week's evidence reinforces rather than resolves the central open question: FIN-01 (7.26, still the dataset's lowest score) sits against a strong, independently-corroborated digital-finance picture -- Chainalysis's own regional report now confirms South Africa as the #2 Sub-Saharan African crypto market by dollar volume, alongside the pilot's best Government pillar (76.2) and strong Infrastructure (84.3). Base case holds: this construct mismatch persists through 2030 absent a registry revision, meaning South Africa's headline ADCI likely continues to understate its actual digital-finance maturity. Upside case is now more concrete than last cycle: if FIN-02 access is resolved (a specific global Chainalysis rank located, or a documented fallback construct adopted per this week's Red Team Finding 4), South Africa's Finance pillar likely improves further given its confirmed strong regional standing -- this is no longer speculative, it's a data-access problem with identifiable fixes. Downside case is unchanged: continued VC cooldown (H1 2026 at $83M, missing $100M) softening ECO-01/ECO-02 from an already-weak base."
+        "base": 58,
+        "upside": 67,
+        "downside": 46,
+        "reasoning": "South Africa's 55.0 is built on 9 of 10 indicators. Real trend is thin: the +5.9 versus last week is mostly FIN-02 appearing (rank 9 of 117) and INF-02 being removed, not an improvement. Base case (58) assumes FIN-01's mobile-money construct keeps hiding bank/card/PayShap activity, so the Finance pillar stays a blend, but that Government keeps compounding: Home Affairs reports about 700,000 Smart IDs via banks since March and a green-ID cut-off within about two years, and the Integration note reads this as a strengthening GOV-FIN link. Upside (67) needs a rail-agnostic FIN-01 and a restored INF-02 that reflects South Africa's mature networks. Downside (46) combines a persistent VC cooldown (H1 2026 $83M total) with the Economy pillar (27.0) staying the weakest link."
       },
       "name": "South Africa"
     },
     "NGA": {
-      "adci_score": 53.2,
+      "adci_score": 50.7,
       "pillars": {
         "Infrastructure": {
-          "score": 72.2,
-          "n_indicators": 2,
-          "partial": false,
+          "score": 56.1,
+          "n_indicators": 1,
+          "partial": true,
           "min_confidence": "medium"
         },
         "Finance": {
-          "score": 70.5,
+          "score": 71.2,
           "n_indicators": 2,
           "partial": false,
           "min_confidence": "medium"
         },
         "Government": {
-          "score": 56.4,
+          "score": 59.1,
           "n_indicators": 2,
           "partial": false,
           "min_confidence": "medium"
@@ -132,13 +132,8 @@
       },
       "indicators": {
         "INF-01": {
-          "raw_value": 53.0,
-          "normalized": 53.0,
-          "confidence": "medium"
-        },
-        "INF-02": {
-          "raw_value": 1.71,
-          "normalized": 91.5,
+          "raw_value": 56.1,
+          "normalized": 56.1,
           "confidence": "medium"
         },
         "FIN-01": {
@@ -147,13 +142,13 @@
           "confidence": "medium"
         },
         "FIN-02": {
-          "raw_value": 96.7,
-          "normalized": 96.7,
+          "raw_value": 98.3,
+          "normalized": 98.3,
           "confidence": "medium"
         },
         "GOV-01": {
-          "raw_value": 59.1,
-          "normalized": 59.1,
+          "raw_value": 64.5,
+          "normalized": 64.5,
           "confidence": "medium"
         },
         "GOV-02": {
@@ -182,24 +177,26 @@
           "confidence": "medium"
         }
       },
-      "missing_indicators": [],
+      "missing_indicators": [
+        "INF-02"
+      ],
       "forecast": {
-        "as_of": "2026-09-02",
+        "as_of": "2026-09-09",
         "target_year": 2030,
-        "base": 59,
-        "upside": 70,
-        "downside": 48,
-        "reasoning": "Nigeria's ADCI (53.2) is unchanged for a second straight week and remains the pilot's most complete dataset (10 of 10 indicators). Base case is unchanged from last cycle: FIN-01's registration-based construct (49.5) and FIN-02's rank-based conversion (96.7, confirmed stable at rank #6 this cycle, no further correction needed) continue on their current trajectories, with NIN enrollment progressing toward its 82%-by-end-2026 target. Upside case still hinges on whether the H1 2026 equity-funding reversal ($214M, first continental equity lead since 2022) holds through a full year -- no fuller-year data has emerged yet to confirm or deny this, so the case is carried forward unchanged rather than strengthened or weakened. Downside case is unchanged: GOV-02 (53.7, lowest of the three pilot countries) remains the clearest structural drag if e-government service delivery does not improve."
+        "base": 58,
+        "upside": 69,
+        "downside": 47,
+        "reasoning": "Nigeria's 50.7 fell 2.5 only because INF-02 was withdrawn (stale 2020 data); Infrastructure is now one subscription-based indicator (56.1). Base case (58, one below last cycle) assumes INF-02 returns at a favourable level once re-sourced (Nigeria is widely described as the cheapest-data pilot), NIN enrolment keeps rising towards the end-2026 target (142M, NIMC Act 2026), and crypto leadership persists (rank 3 of 117, first on P2P and cross-border). It is held back by GOV-02 (53.7, lowest of three) and by FIN-01 still being a registration count. Upside (69) needs the H1 2026 equity lead ($214M) to hold across a full year and the identity push to convert into services. Downside (47): the integration pairing flagged earlier fails; naira stress keeps stablecoin use high while formal investment weakens, and enrolment gains stall on the population denominator."
       },
       "name": "Nigeria"
     },
     "KEN": {
-      "adci_score": 48.8,
+      "adci_score": 43.6,
       "pillars": {
         "Infrastructure": {
-          "score": 61.0,
-          "n_indicators": 2,
-          "partial": false,
+          "score": 35.0,
+          "n_indicators": 1,
+          "partial": true,
           "min_confidence": "medium"
         },
         "Finance": {
@@ -231,11 +228,6 @@
         "INF-01": {
           "raw_value": 35.0,
           "normalized": 35.0,
-          "confidence": "medium"
-        },
-        "INF-02": {
-          "raw_value": 2.62,
-          "normalized": 86.9,
           "confidence": "medium"
         },
         "FIN-01": {
@@ -275,20 +267,21 @@
         }
       },
       "missing_indicators": [
+        "INF-02",
         "FIN-02"
       ],
       "forecast": {
-        "as_of": "2026-09-02",
+        "as_of": "2026-09-09",
         "target_year": 2030,
-        "base": 53,
-        "upside": 63,
-        "downside": 41,
-        "reasoning": "Kenya's ADCI (48.8) is unchanged for a second straight week. This cycle's most consequential finding is methodological, not numerical: GOV-01's stale 2024 base is now confirmed, via a direct check of immigration.go.ke, to reflect a genuine primary-source reporting gap rather than lazy secondary citation -- three consecutive cycles have failed to locate a fresher figure by any method. Base case is nudged slightly down from last cycle (54 to 53) to reflect that this is looking less like a temporary data lag and more like a durable measurement problem that will keep GOV-01 understated (and low-confidence) for the foreseeable future unless Kenya's government changes its own reporting practices. Upside case unchanged in substance but now conditional on something more specific: a change in *government reporting behavior*, not just Claude searching harder. Kenya's FIN-01 strength (52.6, still the pilot's best on a like-for-like usage basis) continues independent of the GOV-01 story, per prior Integration notes -- M-Pesa's rail predates and doesn't depend on Maisha Namba. Downside case unchanged: continued institutional friction plus a weak H1 2026 VC showing, still unconfirmed against a fuller-year figure, compounding an already-weak Economy pillar."
+        "base": 51,
+        "upside": 61,
+        "downside": 39,
+        "reasoning": "Kenya's 43.6 is the lowest of the three and rests on 8 of 10 indicators (INF-02 and FIN-02 missing); its 5.2-point fall is the withdrawn INF-02, which left Infrastructure at 35.0 from a single survey figure. Base case (51, two below last cycle) assumes INF-02 is restored at a mid-range level, M-Pesa-driven FIN-01 (52.6 daily use) stays the pilot's best like-for-like reading, and GOV-01 stays low-confidence because Kenya publishes no Maisha Namba coverage number (fourth week). Upside (61) needs a published coverage figure and FIN-02 resolved. Downside (39) combines the weakest H1 funding since early 2021 ($126M total, $46M equity), continued ID-reporting opacity, and a restored INF-02 that confirms Kenya misses the affordability benchmark."
       },
       "name": "Kenya"
     }
   },
-  "note": "Week three of real data. Scores are UNCHANGED from last week for all three countries (South Africa 49.1, Nigeria 53.2, Kenya 48.8) -- this cycle re-verified every existing indicator against a live source rather than carrying values forward blind, and confirmed no update exists yet for any of them. Two developments worth flagging even though they didn't move a score: (1) Kenya's stale GOV-01 figure (40.6%, from a May 2024 government statement) was checked directly against the primary source (immigration.go.ke) this cycle and confirmed to be a genuine primary-source reporting gap, not a secondary-press citation problem; (2) South Africa's and Kenya's missing FIN-02 (crypto adoption) is now understood to be a structural data-access limitation -- Chainalysis's own regional report gives real context for both countries but not the specific global rank this indicator's formula needs. See this week's brief and red-team report for detail. Sample/synthetic data from 2026-08-18 remains excluded from these trend lines per the project README.",
+  "note": "Week of 2026-09-09 (run executed 2026-10-01). Scores moved (South Africa 49.1->55.0, Nigeria 53.2->50.7, Kenya 48.8->43.6) but NONE of this is a real-world change. (1) The INF-02 broadband-affordability values used since week one were 2020 A4AI data from a 2021 article; they were withdrawn, so Infrastructure now rests on INF-01 alone for all three countries. (2) South Africa's crypto-adoption indicator (FIN-02) was populated for the first time after Chainalysis published its 2026 index (new methodology, 117 countries). The 2026-08-18 sample data and the unrevised earlier weeks are as originally published; see the brief and red-team report.",
   "history": {
     "ZAF": [
       {
@@ -302,6 +295,10 @@
       {
         "week": "2026-09-02",
         "adci_score": 49.1
+      },
+      {
+        "week": "2026-09-09",
+        "adci_score": 55.0
       }
     ],
     "NGA": [
@@ -316,6 +313,10 @@
       {
         "week": "2026-09-02",
         "adci_score": 53.2
+      },
+      {
+        "week": "2026-09-09",
+        "adci_score": 50.7
       }
     ],
     "KEN": [
@@ -330,6 +331,10 @@
       {
         "week": "2026-09-02",
         "adci_score": 48.8
+      },
+      {
+        "week": "2026-09-09",
+        "adci_score": 43.6
       }
     ]
   }
