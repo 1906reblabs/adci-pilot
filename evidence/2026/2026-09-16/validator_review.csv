@@ -1,0 +1,31 @@
+claim_id,validator_pass,validator_notes
+ZAF-FIN-02-02-C1,true,Rank-to-index arithmetic reproduces (108/116=93.1). Flag: 2026 edition is a different method and country set than the 2025 edition used for Nigeria last-but-one cycle.
+NGA-FIN-02-05-C1,true,"Arithmetic reproduces (114/116=98.3). Flag: change vs 96.7 is a method/edition change, not a trend."
+NGA-INF-01-05-C1,true,Value and month stated in the source; reproducible. Subscription-based construct noted.
+NGA-GOV-01-05-C1,true,142/220=64.5 reproducible. Flag: denominator is an assumption carried from earlier cycles; numerator counts enrolments.
+NGA-FIN-01-06-C1,true,494.537/1000 -> 49.45 per 100 reproducible from FRED.
+ZAF-GOV-02-04-C1,true,Re-check of publication status; value unchanged and reproducible.
+NGA-GOV-02-04-C1,true,As above.
+KEN-GOV-02-04-C1,true,As above.
+ZAF-INF-01-05-C1,true,Carried-forward claim; internally consistent. Flag: not re-verified live this cycle.
+KEN-INF-01-05-C1,true,Carried-forward; consistent. Not re-verified live.
+ZAF-FIN-01-05-C1,true,Carried-forward; unit conversion correct. Not re-verified live.
+KEN-FIN-01-07-C1,true,Carried-forward; consistent. Not re-verified live.
+ZAF-GOV-01-06-C1,true,Arithmetic as before. Flag: basis is older than newer DHA statements; confidence should stay low.
+KEN-GOV-01-05-C1,true,"13/32=40.6 reproduces. FLAG: statement dated 2024-05-08, ~28 months stale; confidence must stay low."
+ZAF-ECO-01-04-C1,true,Carried-forward; formula reproduces. Not re-searched.
+NGA-ECO-01-04-C1,true,Carried-forward; formula reproduces.
+KEN-ECO-01-04-C1,true,Carried-forward; formula reproduces.
+ZAF-ECO-02-06-C1,true,Carried-forward; computation as logged before.
+NGA-ECO-02-08-C1,true,Carried-forward.
+KEN-ECO-02-06-C1,true,Carried-forward.
+ZAF-AI-02-04-C1,true,Carried-forward; raw-count-as-index convention noted before.
+NGA-AI-02-04-C1,true,Carried-forward.
+KEN-AI-02-04-C1,true,Carried-forward.
+ZAF-AI-01-06-C1,true,Value unchanged; re-check found no newer edition.
+NGA-AI-01-07-C1,true,As above.
+KEN-AI-01-05-C1,true,As above.
+ZAF-INF-02-04-C1,false,FAIL: as_of 2020 is ~6 years old; a 2020 value cannot stand as a current observation. Earlier cycles mis-dated it 2026-06-15.
+NGA-INF-02-04-C1,false,FAIL: same stale vintage (2020).
+KEN-INF-02-04-C1,false,FAIL: same stale vintage (2020).
+NGA-INF-02-05-C1,false,"FAIL: unit '%' of income but computed on a different basis (price/Atlas GNI, not ITU/A4AI basket); not reproducible against registry definition."

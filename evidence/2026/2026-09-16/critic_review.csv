@@ -1,0 +1,31 @@
+claim_id,critic_pass,source_tier_confirmed,critic_notes
+ZAF-FIN-02-02-C1,true,1,"Chainalysis own blog: primary, published methodology. Methodology changed vs 2025 (117 vs 151 countries, PPP-weighted factors, geometric mean); noted, not disqualifying. Contradicts nothing this week; supersedes the 2025 edition."
+NGA-FIN-02-05-C1,true,1,Same primary source. Supersedes rank #6 of 151 (2025 edition).
+NGA-INF-01-05-C1,true,2,"NCC figures relayed by three trade outlets; NCC site itself was not fetched, so tier set to 2. Subscription-based, may overstate individuals online (contrast ZAF/KEN surveys)."
+NGA-GOV-01-05-C1,true,2,"On-record NIMC statement relayed by BusinessDay, with Vanguard reporting 'nearly 140m' independently. Supports order of magnitude. TechCabal's 117.5M issued NINs (30 Jun) is a different base and does not contradict."
+NGA-FIN-01-06-C1,true,1,"IMF FAS primary. Authoritative as a source; the concern (registered accounts, not active usage) is construct fit, not authority."
+ZAF-GOV-02-04-C1,true,1,UN DESA primary.
+NGA-GOV-02-04-C1,true,1,UN DESA primary.
+KEN-GOV-02-04-C1,true,1,UN DESA primary.
+ZAF-INF-01-05-C1,true,1,ICASA+StatsSA primary; carried forward without a live check.
+KEN-INF-01-05-C1,true,1,CA+KNBS survey primary; carried forward without a live check.
+ZAF-FIN-01-05-C1,true,1,IMF FAS primary; carried forward.
+KEN-FIN-01-07-C1,true,2,AFI relaying CBK/KNBS/FSD survey; KNBS primary report exists (Tier 1) but not re-fetched.
+ZAF-GOV-01-06-C1,true,1,DHA primary figures as before. Newer DHA statements (34.7M issued) exist and may imply a higher share; unresolved.
+KEN-GOV-01-05-C1,true,3,"Tier-3 news outlet relaying an on-record PS statement; no official report with the figure found, and immigration.go.ke publishes no consolidated statistic. Authoritative speaker, weak and stale source chain."
+ZAF-ECO-01-04-C1,true,2,StartupBlink sells ecosystem advisory (mild incentive); published method.
+NGA-ECO-01-04-C1,true,2,Same caveat.
+KEN-ECO-01-04-C1,true,2,Same caveat; reached via OA Markets summary.
+ZAF-ECO-02-06-C1,true,2,Partech primary-ish industry report; GDP-denominator sensitivity as before.
+NGA-ECO-02-08-C1,true,2,Same.
+KEN-ECO-02-06-C1,true,2,Same.
+ZAF-AI-02-04-C1,true,2,"TechCabal Insights, explicit AI-native definition; SAP broader count is a definitional difference."
+NGA-AI-02-04-C1,true,2,Same.
+KEN-AI-02-04-C1,true,2,Same.
+ZAF-AI-01-06-C1,true,2,PwC/Strategy& via secondary reports; original PDF not fetched. Ataraxis 66.5 is a different construct and is not a contradiction.
+NGA-AI-01-07-C1,true,2,Same.
+KEN-AI-01-05-C1,true,2,Same.
+ZAF-INF-02-04-C1,false,3,FAIL: Tier-3 trade press republishing 2020 A4AI data; the primary ITU/A4AI series has since been superseded (ITU moved to a 5GB basket in 2025). Not a current authoritative source for this indicator.
+NGA-INF-02-04-C1,false,3,"FAIL: same article, same problem."
+KEN-INF-02-04-C1,false,3,"FAIL: same article, same problem."
+NGA-INF-02-05-C1,false,4,"FAIL: vendor calculation from Cable.co.uk prices and World Bank GNI; commercial site, no stated peer review; structurally mismatched to the registry's basket definition."
