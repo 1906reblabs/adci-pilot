@@ -1,0 +1,39 @@
+claim_id,validator_pass,validator_notes
+NGA-FIN-02-04-C1,true,Formula shown and reproducible: 100*(117-3)/116=98.28. FLAG: N and methodology differ from 2025 edition - value not comparable with prior 96.7.
+ZAF-FIN-02-01-C1,true,Formula reproducible: 100*(117-9)/116=93.10.
+KEN-FIN-02-01-C1,false,No value. An ordinal bound (rank>=21) cannot be converted to an index value.
+KEN-FIN-02-02-C1,false,Cannot be reproduced from Chainalysis's actual 2026 edition; the cited article describes the 151-country 2025 edition under a 2026 label.
+NGA-GOV-01-04-C1,true,"142/220=64.5%, arithmetic correct. FLAG: denominator is an assumption (NIMC DG cites 200-250M), numerator includes legal residents; date plausible (2026-09-16)."
+ZAF-GOV-01-05-C1,false,Not reproducible on the prior basis: 28M (Jul) to 34.7M (Sep) is implausible as a change in distinct holders; 34.7M is cumulative issuance incl. reissues. Construct differs from the prior computation.
+ZAF-GOV-01-04-C1,true,Carried-forward computation (28M/44M) still arithmetically correct; staleness flagged.
+KEN-GOV-01-05-C1,false,"No value; '34M captured' is the national ID database, and exceeds the 32M adult denominator."
+KEN-GOV-01-04-C1,true,13M/32M=40.6% arithmetic correct; date 2024-05-08 is ~28 months old.
+NGA-INF-01-04-C1,true,"Unit % plausible; same series as prior 53.0 (Jan 2026 NCC 53.07%); monthly NCC series internally consistent (53.07, 54.30, 55.67, 56.1)."
+KEN-INF-01-04-C1,true,"Carried forward, no issues."
+ZAF-INF-01-04-C1,true,"Carried forward, no issues. NOT re-verified live this cycle."
+ZAF-INF-02-03-C1,false,Date implausible/incorrect: logged as_of 2026-06-15 but cited article is dated 2021-05-04 and reports 2020 data. Not reproducible as a current observation.
+NGA-INF-02-03-C1,false,Same date error as ZAF-INF-02-03-C1.
+KEN-INF-02-03-C1,false,Same date error as ZAF-INF-02-03-C1.
+NGA-INF-02-04-C1,false,Different basket/income basis than registry definition (% of monthly GNI p.c.); cannot be compared with other countries' values.
+ZAF-FIN-01-04-C1,true,"Unit conversion correct, reproducible from FRED."
+NGA-FIN-01-05-C1,true,"Unit conversion correct. FLAG: REGISTERED series, supply-side (3rd consecutive cycle)."
+KEN-FIN-01-06-C1,true,"Carried forward, no issues."
+NGA-FIN-01-06-C1,false,No defined mapping from transactions per 1000 adults to a 0-100 index.
+ZAF-GOV-02-03-C1,true,Straightforward OSI x100.
+NGA-GOV-02-03-C1,true,Same.
+KEN-GOV-02-03-C1,true,Same.
+ZAF-ECO-01-03-C1,true,Formula reproducible; carried forward.
+NGA-ECO-01-03-C1,true,Same.
+KEN-ECO-01-03-C1,true,Same.
+ZAF-ECO-02-05-C1,true,Re-confirmed computation.
+NGA-ECO-02-07-C1,true,Re-confirmed computation.
+KEN-ECO-02-05-C1,true,Re-confirmed computation.
+NGA-ECO-02-08-C1,false,Half-year period; not comparable with FY2025 annual basis. Context only.
+NGA-ECO-02-09-C1,false,Contradicts primary tracker; no methodology; unit/period unclear.
+ZAF-AI-01-04-C1,true,Re-confirmed.
+NGA-AI-01-05-C1,true,Re-confirmed.
+KEN-AI-01-04-C1,true,Re-confirmed.
+ZAF-AI-01-05-C1,true,Internally consistent but a different construct from the one used for AI-01.
+ZAF-AI-02-03-C1,true,"Count-as-index convention, documented, reproducible."
+NGA-AI-02-03-C1,true,Same.
+KEN-AI-02-03-C1,true,Same.

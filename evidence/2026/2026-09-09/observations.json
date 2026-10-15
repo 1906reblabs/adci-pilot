@@ -1,0 +1,468 @@
+[
+  {
+    "country": "ZAF",
+    "indicator": "INF-01",
+    "value": 75.6,
+    "unit": "%",
+    "as_of_date": "2026-03-31",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-INF-01-04"
+    ],
+    "previous_value": 75.6,
+    "change": 0.0,
+    "notes": "Carried forward (ICASA+StatsSA); NOT re-verified live this cycle.",
+    "pillar_commentary": "Unchanged at 75.6%. With INF-02 unavailable this cycle, INF-01 is now South Africa's only Infrastructure input, so the pillar reads as a single survey figure."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "INF-02",
+    "value": null,
+    "unit": "%",
+    "as_of_date": "2026-09-09",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": 1.41,
+    "change": null,
+    "notes": "no validated evidence this week - the prior 1.41% came from a May 2021 article reporting A4AI 2020 data; Validator and Critic both failed it (stale vintage, mis-dated as 2026-06-15 in earlier cycles). Replacement target: ITU data-only mobile broadband basket (5GB), country values.",
+    "pillar_commentary": "Affordability evidence is currently missing, not 'good'. The earlier 1.41% was a 2020 reading; the series has to be re-sourced from a current ITU/A4AI country table before South Africa's relative position means anything."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-01",
+    "value": 7.26,
+    "unit": "index",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-FIN-01-04"
+    ],
+    "previous_value": 7.26,
+    "change": 0.0,
+    "notes": "Re-confirmed live (IMF FAS via FRED, no newer vintage). Construct caveat unchanged: mobile-money-specific measure.",
+    "pillar_commentary": "Still the lowest indicator score in the dataset. IMF's own series shows South Africa's registered mobile-money accounts at 482.9 per 1000 adults against 72.6 active, and 468 mobile-money transactions per 1000 - small numbers next to bank/card/PayShap rails that this construct does not see."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "FIN-02",
+    "value": 93.1,
+    "unit": "index",
+    "as_of_date": "2026-09-23",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-FIN-02-01"
+    ],
+    "previous_value": null,
+    "change": null,
+    "notes": "NEW. Chainalysis 2026 edition rank #9 of 117 -> 100*(117-9)/116. First usable South Africa value. Ordinal-to-index convention (not a published score); edition/method is new (117 countries, PPP-weighted, 4 factors).",
+    "pillar_commentary": "South Africa places 9th of 117 globally, 4th in domestic peer-to-peer and 3rd in cross-border flows - consistent with last week's regional-report picture of a large, institutionally-flavoured crypto market. This fills a gap that was open for three straight cycles."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-01",
+    "value": 63.6,
+    "unit": "%",
+    "as_of_date": "2026-07-29",
+    "confidence": "low",
+    "source_ids": [
+      "ZAF-GOV-01-04"
+    ],
+    "previous_value": 63.6,
+    "change": 0.0,
+    "notes": "Carried forward; confidence lowered medium->low. Newer DHA statements (34.7M cards issued cumulatively, ~16M green books left, 700k cards via banks since March) could not be put on the same basis as the 28M figure and failed validation (ZAF-GOV-01-05). Direction of error is probably understatement.",
+    "pillar_commentary": "Smart ID migration is accelerating, with banks now a material channel (about 700,000 cards since March) and DHA signalling a green-ID cut-off within about two years. The scored 63.6% is the older, narrower basis and likely lags reality."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "GOV-02",
+    "value": 88.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "ZAF-GOV-02-03"
+    ],
+    "previous_value": 88.7,
+    "change": 0.0,
+    "notes": "Re-confirmed; UN E-Government Survey 2026 edition not found published as of 2026-10-01.",
+    "pillar_commentary": "Still the pilot's highest Online Service Index. The UN's 2026 survey is due; this figure will refresh when it lands."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-01",
+    "value": 57.1,
+    "unit": "index",
+    "as_of_date": "2026-05-19",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-ECO-01-03"
+    ],
+    "previous_value": 57.1,
+    "change": 0.0,
+    "notes": "Carried forward (StartupBlink 2026); not re-searched this cycle.",
+    "pillar_commentary": "Rank 52 of 120 remains the best of the three pilots."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "ECO-02",
+    "value": 0.149,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "low",
+    "source_ids": [
+      "ZAF-ECO-02-05"
+    ],
+    "previous_value": 0.149,
+    "change": 0.0,
+    "notes": "FY2025 basis retained. H1 2026 (Big Deal): ZAF $83M total / $66M equity - context only, half-year not annualized.",
+    "pillar_commentary": "South Africa's H1 2026 funding ($83M, $66M equity) is well below Nigeria and Egypt after leading equity in FY2025; it is not applied to the annual figure."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-01",
+    "value": 52.1,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-01-04"
+    ],
+    "previous_value": 52.1,
+    "change": 0.0,
+    "notes": "Re-confirmed live. Ataraxis outsourcing AI-readiness (66.5) is a different construct and was not used.",
+    "pillar_commentary": "Still the pilot's AI-talent leader on the PwC/Strategy& index."
+  },
+  {
+    "country": "ZAF",
+    "indicator": "AI-02",
+    "value": 49,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "ZAF-AI-02-03"
+    ],
+    "previous_value": 49,
+    "change": 0,
+    "notes": "Re-confirmed live (TechCabal Insights, April 2026).",
+    "pillar_commentary": "49 tracked AI-native startups, finance and software development heavy."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-01",
+    "value": 56.1,
+    "unit": "%",
+    "as_of_date": "2026-05-31",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-INF-01-04"
+    ],
+    "previous_value": 53.0,
+    "change": 3.1,
+    "notes": "Updated from 53.0 (Jan 2026) to 56.1 (May 2026): same NCC broadband-penetration series. Subscription-based, so it can overstate individuals actually online; not the survey construct used for ZAF and KEN.",
+    "pillar_commentary": "NCC broadband penetration climbed every month this year (53.07% Jan to 56.1% May). Because Nigeria's figure counts subscriptions while South Africa's and Kenya's come from surveys of people, the three Infrastructure readings are not like-for-like."
+  },
+  {
+    "country": "NGA",
+    "indicator": "INF-02",
+    "value": null,
+    "unit": "%",
+    "as_of_date": "2026-09-09",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": 1.71,
+    "change": null,
+    "notes": "no validated evidence this week - prior 1.71% was A4AI 2020 data from a May 2021 article (stale vintage). A vendor 2026 figure (0.23%) is Tier-4 and on a different basis.",
+    "pillar_commentary": "Nigeria is widely described as having the cheapest mobile data in the pilot set, but this cycle has no current, comparable, validated number to show it."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-01",
+    "value": 49.45,
+    "unit": "index",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-01-05"
+    ],
+    "previous_value": 49.45,
+    "change": 0.0,
+    "notes": "Re-confirmed live. Registered-accounts series (supply-side), 3rd consecutive cycle with this construct caveat. IMF transaction series (126,325 per 1000 adults) has no mapping onto the 0-100 scale.",
+    "pillar_commentary": "Registered accounts understate how heavily Nigerians transact: IMF's own transactions series shows about 126 transactions per adult in 2024, which the registry cannot yet ingest."
+  },
+  {
+    "country": "NGA",
+    "indicator": "FIN-02",
+    "value": 98.3,
+    "unit": "index",
+    "as_of_date": "2026-09-23",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-FIN-02-04"
+    ],
+    "previous_value": 96.7,
+    "change": 1.6,
+    "notes": "Updated from 96.7 to 98.3: rank #3 of 117 (2026 edition) vs #6 of 151 (2025 edition). NOT a like-for-like trend: country set and methodology changed. Edition correction/refresh, not a real-world one-week move.",
+    "pillar_commentary": "Nigeria ranks 3rd globally and 1st in both domestic peer-to-peer and cross-border flows, while ranking only 18th on service flows and on balances - the strength is payments and naira-hedging use rather than trading or holdings."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-01",
+    "value": 64.5,
+    "unit": "%",
+    "as_of_date": "2026-09-16",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-GOV-01-04"
+    ],
+    "previous_value": 59.1,
+    "change": 5.4,
+    "notes": "Updated from 59.1 to 64.5: 142M enrolled (NIMC, Sep 16) / 220M assumed population. Denominator assumption unchanged for consistency; 200-250M range gives ~71% to ~57%. Numerator includes legal residents.",
+    "pillar_commentary": "Enrolment rose from about 130M in June to 142M in mid-September, helped by the NIMC Act 2026 and a presidential target of full enrolment by end-2026. The headline percentage moves a lot with the population assumed."
+  },
+  {
+    "country": "NGA",
+    "indicator": "GOV-02",
+    "value": 53.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "NGA-GOV-02-03"
+    ],
+    "previous_value": 53.7,
+    "change": 0.0,
+    "notes": "Re-confirmed.",
+    "pillar_commentary": "Still the lowest Online Service Index of the three pilots."
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-01",
+    "value": 48.7,
+    "unit": "index",
+    "as_of_date": "2026-05-20",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-01-03"
+    ],
+    "previous_value": 48.7,
+    "change": 0.0,
+    "notes": "Carried forward; not re-searched this cycle.",
+    "pillar_commentary": "Rank 62 of 120 holds."
+  },
+  {
+    "country": "NGA",
+    "indicator": "ECO-02",
+    "value": 0.201,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-ECO-02-07"
+    ],
+    "previous_value": 0.201,
+    "change": 0.0,
+    "notes": "FY2025 basis retained. H1 2026 (Big Deal): NGA $254M total, $214M equity (#1 in Africa on equity) - half-year, context only. A Tier-4 blog's $78M figure was rejected.",
+    "pillar_commentary": "Nigeria's first half of 2026 is the opposite of its 2025 story: $254M total and the equity lead on the continent. It will only show in this indicator once a full-year number exists."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-01",
+    "value": 37.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-AI-01-05"
+    ],
+    "previous_value": 37.7,
+    "change": 0.0,
+    "notes": "Re-confirmed live.",
+    "pillar_commentary": "A talent-readiness gap versus South Africa and Kenya persists."
+  },
+  {
+    "country": "NGA",
+    "indicator": "AI-02",
+    "value": 50,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "NGA-AI-02-03"
+    ],
+    "previous_value": 50,
+    "change": 0,
+    "notes": "Re-confirmed live.",
+    "pillar_commentary": "Largest tracked AI-native startup count in Africa (50)."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-01",
+    "value": 35.0,
+    "unit": "%",
+    "as_of_date": "2025-08-11",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-INF-01-04"
+    ],
+    "previous_value": 35.0,
+    "change": 0.0,
+    "notes": "Carried forward (CA+KNBS survey); CA quarterly statistics are subscription counts, a different construct.",
+    "pillar_commentary": "A people-based survey figure of 35% sits beside Nigeria's subscription-based 56.1%, so the gap overstates the real difference."
+  },
+  {
+    "country": "KEN",
+    "indicator": "INF-02",
+    "value": null,
+    "unit": "%",
+    "as_of_date": "2026-09-09",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": 2.62,
+    "change": null,
+    "notes": "no validated evidence this week - prior 2.62% was A4AI 2020 data from a May 2021 article (stale vintage).",
+    "pillar_commentary": "The earlier claim that Kenya alone misses the 2% affordability target rested on 2020 data and is withdrawn until re-sourced."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-01",
+    "value": 52.6,
+    "unit": "index",
+    "as_of_date": "2024-12-03",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-FIN-01-06"
+    ],
+    "previous_value": 52.6,
+    "change": 0.0,
+    "notes": "Carried forward (FinAccess 2024); not re-searched.",
+    "pillar_commentary": "Daily mobile-money use remains the highest like-for-like FIN-01 reading in the pilot."
+  },
+  {
+    "country": "KEN",
+    "indicator": "FIN-02",
+    "value": null,
+    "unit": "index",
+    "as_of_date": "2026-09-09",
+    "confidence": "n/a",
+    "source_ids": [],
+    "previous_value": null,
+    "change": null,
+    "notes": "no validated evidence this week - Kenya is outside the published top 20 of Chainalysis's 2026 edition; rank >=21 of 117 is a bound, not a value. A Tier-4 site's '#13' is a mislabelled 2025 edition.",
+    "pillar_commentary": "Kenya's absence from the top 20 contrasts with Nigeria (3rd) and South Africa (9th); the exact rank would need Chainalysis's full table."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-01",
+    "value": 40.6,
+    "unit": "%",
+    "as_of_date": "2024-05-08",
+    "confidence": "low",
+    "source_ids": [
+      "KEN-GOV-01-04"
+    ],
+    "previous_value": 40.6,
+    "change": 0.0,
+    "notes": "Carried forward, 4th consecutive week on the same May-2024 base. A June-2026 PS statement of '34 million captured' refers to the national ID register, not Maisha Namba coverage, and was rejected.",
+    "pillar_commentary": "Issuance of national IDs is visibly accelerating (1.5M first-time IDs in five months, free ID policy, 3M target), but no coverage statistic for Maisha Namba itself is published."
+  },
+  {
+    "country": "KEN",
+    "indicator": "GOV-02",
+    "value": 77.7,
+    "unit": "%",
+    "as_of_date": "2024-09-01",
+    "confidence": "high",
+    "source_ids": [
+      "KEN-GOV-02-03"
+    ],
+    "previous_value": 77.7,
+    "change": 0.0,
+    "notes": "Re-confirmed.",
+    "pillar_commentary": "Second-highest Online Service Index of the three."
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-01",
+    "value": 49.6,
+    "unit": "index",
+    "as_of_date": "2026-07-01",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-01-03"
+    ],
+    "previous_value": 49.6,
+    "change": 0.0,
+    "notes": "Carried forward; not re-searched this cycle.",
+    "pillar_commentary": "Rank 61 of 120 holds."
+  },
+  {
+    "country": "KEN",
+    "indicator": "ECO-02",
+    "value": 0.706,
+    "unit": "%",
+    "as_of_date": "2026-01-22",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-ECO-02-05"
+    ],
+    "previous_value": 0.706,
+    "change": 0.0,
+    "notes": "FY2025 basis retained. H1 2026 (Big Deal): KEN $126M total, $46M equity - weakest first half since early 2021; context only.",
+    "pillar_commentary": "Kenya is paying back its 2025 debt-driven lead: H1 2026 is its weakest start since 2021."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-01",
+    "value": 49.7,
+    "unit": "index",
+    "as_of_date": "2025-08-25",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-01-04"
+    ],
+    "previous_value": 49.7,
+    "change": 0.0,
+    "notes": "Re-confirmed live.",
+    "pillar_commentary": "Close behind South Africa on talent readiness."
+  },
+  {
+    "country": "KEN",
+    "indicator": "AI-02",
+    "value": 31,
+    "unit": "index",
+    "as_of_date": "2026-04-01",
+    "confidence": "medium",
+    "source_ids": [
+      "KEN-AI-02-03"
+    ],
+    "previous_value": 31,
+    "change": 0,
+    "notes": "Re-confirmed live.",
+    "pillar_commentary": "Fewest AI-native startups (31) but the most advanced stage-mix (42% growth stage)."
+  },
+  {
+    "country": "KEN",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "Kenya's digital-ID transparency gap persists: a fourth week with no published Maisha Namba coverage figure, while the national ID registry (34M records) and new-ID issuance (1.5M first-time IDs in five months) are discussed openly. The registry-versus-Maisha-Namba distinction itself confuses what 'coverage' means - a candidate for a Society/transparency indicator.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "NGA",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "The identity push is now explicit policy: the NIMC Act 2026 makes the NIN the foundational identity and NIMC the root certificate authority, with the NIN-SIM link used to curb anonymous lines. Whether enrolment translates into usable digital services for the roughly one in four adults still financially excluded (47% in the north, per CBN) is the inclusion question.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  },
+  {
+    "country": "ZAF",
+    "pillar": "Society",
+    "indicator": null,
+    "value": null,
+    "pillar_commentary": "Banks are becoming public identity infrastructure: about 700,000 Smart IDs via bank branches since March, with Home Affairs now openly linking the end of the green ID book to financial-sector access (the Smart ID becomes the only document banks can accept). That is a state-private rail integration worth tracking, with a risk that people without bank access are served last.",
+    "notes": "Incidental observation from this week's evidence; not scored."
+  }
+]

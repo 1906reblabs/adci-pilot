@@ -1,0 +1,39 @@
+claim_id,critic_pass,source_tier_confirmed,critic_notes
+NGA-FIN-02-04-C1,true,1,"Chainalysis's own official report - primary, methodology published. Supersedes the 2025 edition (#6 of 151). Not a real-world rank change; methodology and country set changed. A Tier-4 site mislabels the 2025 edition as '2026' - ignored."
+ZAF-FIN-02-01-C1,true,1,Same primary source. Resolves 3 weeks of missing South Africa FIN-02.
+KEN-FIN-02-01-C1,true,1,"Source authoritative, but it does not state Kenya's rank. Kenya missing from top 20 is information about the source, not a number."
+KEN-FIN-02-02-C1,false,4,"Commercial content site, no methodology, mislabels edition; contradicts the primary source."
+NGA-GOV-01-04-C1,true,3,"On-record statement by NIMC DG, relayed by BusinessDay; NIMC's own release not located. Trajectory (136M June, 137M July, 142M Sept) corroborated by independent outlets, but the 142M figure itself is single-outlet."
+ZAF-GOV-01-05-C1,true,3,On-record DHA statements via secondary outlets. CONTRADICTS the earlier 28M basis (see validator). Not resolved here - flagged for Red Team.
+ZAF-GOV-01-04-C1,true,1,"DHA-sourced, but now stale relative to newer DHA statements; confidence should be lowered."
+KEN-GOV-01-05-C1,false,3,"Construct mismatch: this is the national ID register, not Maisha Namba coverage."
+KEN-GOV-01-04-C1,true,3,Official statement via Tier-3 outlet; ~28 months old; no fresher official figure found for the 4th straight cycle.
+NGA-INF-01-04-C1,true,1,NCC is the authoritative regulator; relayed via TechEconomy and corroborated by other outlets quoting NCC. Structural caveat: subscription-based penetration can exceed individual usage; differs from the survey constructs used for ZAF and KEN.
+KEN-INF-01-04-C1,true,1,CA+KNBS survey; unchanged.
+ZAF-INF-01-04-C1,true,1,ICASA+StatsSA; unchanged; not live-checked.
+ZAF-INF-02-03-C1,false,2,STALE VINTAGE: the source is a May 2021 article on 2020 A4AI data. A 5-6-year-old value cannot be a current observation. Earlier cycles passed it as 'no newer edition found' without checking the article date.
+NGA-INF-02-03-C1,false,2,Same stale-vintage failure.
+KEN-INF-02-03-C1,false,2,Same stale-vintage failure.
+NGA-INF-02-04-C1,false,4,Vendor with commercial interest; different basket and income basis; no stated methodology for the country figure.
+ZAF-FIN-01-04-C1,true,1,IMF primary; authoritative; no contradiction.
+NGA-FIN-01-05-C1,true,1,IMF primary; authoritative as a source. Construct (registered accounts) is a Validator/Red Team matter.
+KEN-FIN-01-06-C1,true,2,Secondary relay of the official CBK/KNBS/FSD survey; unchanged.
+NGA-FIN-01-06-C1,true,1,"IMF primary and authoritative; the problem is mapping to the registry scale, not the source."
+ZAF-GOV-02-03-C1,true,1,UN DESA primary.
+NGA-GOV-02-03-C1,true,1,UN DESA primary.
+KEN-GOV-02-03-C1,true,1,UN DESA primary.
+ZAF-ECO-01-03-C1,true,2,StartupBlink: private firm that also sells ecosystem advisory; mild structural incentive; published methodology.
+NGA-ECO-01-03-C1,true,2,Same caveat; corroborated by multiple summaries of the same index.
+KEN-ECO-01-03-C1,true,2,Same caveat.
+ZAF-ECO-02-05-C1,true,2,Partech/IMF; GDP-denominator sensitivity (~$400-480B) unchanged.
+NGA-ECO-02-07-C1,true,2,Partech/IMF.
+KEN-ECO-02-05-C1,true,2,Partech/IMF.
+NGA-ECO-02-08-C1,true,2,Africa: The Big Deal is a transparent tracker; widely cited. Consistent across 5 outlets. Differs from Partech's definitions (do not mix).
+NGA-ECO-02-09-C1,false,4,Single unsourced blog figure; contradicted by the primary tracker.
+ZAF-AI-01-04-C1,true,2,PwC/Strategy& via secondary outlets; primary PDF still not directly fetched.
+NGA-AI-01-05-C1,true,2,Same.
+KEN-AI-01-04-C1,true,2,Same.
+ZAF-AI-01-05-C1,false,3,"Outsourcing-destination index, different construct; contradicts PwC numerically (66.5 vs 52.1) for definitional reasons. Not used; noted."
+ZAF-AI-02-03-C1,true,2,"TechCabal Insights states an explicit AI-native definition; SAP/Vanson Bourne 'AI-focused' counts differ by definition, not fact."
+NGA-AI-02-03-C1,true,2,Same.
+KEN-AI-02-03-C1,true,2,Same.
