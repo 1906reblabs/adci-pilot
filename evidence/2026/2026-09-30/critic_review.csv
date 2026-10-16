@@ -1,0 +1,43 @@
+claim_id,critic_pass,source_tier_confirmed,critic_notes
+ZAF-INF-01-20-C1,true,2,"World Bank WDI relays ITU; reached through EconDash, not directly. Two ITU-derived tables agree; DataReportal (Tier 2, modelled) is close at ~79.6. Not structurally biased."
+ZAF-INF-01-21-C1,true,3,"Wikipedia is a Tier-3 mirror of ITU; usable only for corroboration, which is how it is used."
+ZAF-INF-01-22-C1,true,1,"ICASA and Stats SA are authoritative for household mobile access. The source itself calls this households with mobile access, so the authority is fine; whether it fits the registry is a Validator matter. Contradicts ZAF-INF-01-20 on construct (household access vs individual use)."
+NGA-INF-01-20-C1,true,2,"WDI/ITU via an aggregator. Modelled estimate for Nigeria, which has no recent national individual-use survey; acknowledged limitation. Close to Kepios (45.5%, Tier 2) which was flagged in week one."
+NGA-INF-01-21-C1,true,3,Mirror; corroboration only.
+NGA-INF-01-22-C1,true,1,NCC is authoritative for subscription counts. Contradicts the ITU individual-use figure by about 16 points; that is the subscriptions-versus-people gap flagged in weeks 09-09 to 09-23. Not resolved here.
+KEN-INF-01-20-C1,true,2,WDI/ITU via an aggregator.
+KEN-INF-01-21-C1,true,2,"Separate aggregator, same underlying series."
+KEN-INF-01-22-C1,true,1,"Tier-1 national survey, independent of the ITU modelling; agrees at 35.0. Strongest INF-01 case of the three."
+ZAF-INF-02-20-C1,true,2,"Origin is the ITU Tier-1 dataset, but I read it from StatOrigin, a young open-data mirror. Spot checks support it: its 2024 South Africa value (1.63%) equals ICASA's own relay of ITU 2024 (ZAF-INF-02-21), and its Nigeria 2020 value equals the A4AI figure. Recommend confirming against the ITU xlsx next cycle."
+NGA-INF-02-20-C1,true,2,Same mirror and caveats. Nigeria 2025 (1.56) vs 2024 (1.75) direction is plausible.
+KEN-INF-02-20-C1,true,2,"Same mirror. The jump from 1.79 (2024) to 4.1 (2025) is large; it is explained by the ITU switch from a 2GB to a 5GB basket, but I could not read the ITU methodology note directly. Flag for Red Team."
+ZAF-FIN-01-20-C1,true,1,"IMF FAS via FRED, primary and standardised. Series is volatile (2022 vs 2023 values differ greatly), which is itself a warning about the construct."
+NGA-FIN-01-20-C1,true,1,"Primary source. Registered accounts, so supply-side; same construct concern as Kenya's blocking finding in week one."
+KEN-FIN-01-20-C1,true,2,AFI relays a CBK/KNBS survey; primary CBK report URLs found this run but not fetched. Strongest usage-based figure. Stricter than any-use (82%).
+ZAF-FIN-01-21-C1,true,2,"World Bank Findex is a primary, standardised survey (Tier 1 origin); I reached it via a secondary relay, so Tier 2. Methodology credible. Contradicts ZAF-FIN-01-20 in magnitude (67 vs 7.26) because the constructs differ."
+NGA-FIN-01-22-C1,true,2,"Findex via EFInA, a credible Nigerian financial-inclusion body. Contradicts NGA-FIN-01-20 only by construct."
+KEN-FIN-01-22-C1,true,2,Findex via a secondary relay. Kenya account ownership 90.1% is confirmed by a second outlet.
+NGA-FIN-02-20-C1,true,3,"Tier-3 news summary of Chainalysis. Chainalysis's own page was not re-fetched this run. Mitigation: the same rank was verified against the primary in the 09-09 and 09-16 runs, and a second outlet agrees."
+NGA-FIN-02-21-C1,true,3,Aggregator site; corroboration only.
+ZAF-FIN-02-20-C1,true,3,Same caveat as NGA-FIN-02-20.
+ZAF-FIN-02-21-C1,true,3,Same caveat; gives sub-ranks consistent with 09-09 primary reading.
+NGA-GOV-01-20-C1,true,3,News outlet relaying the presidency and NIMC; the figure matches the NIMC statement logged 09-09. The July DG figure (137.4M) shows consistent growth. Enrolled is not issued: TechCabal's 30 June comparison (117.5M issued vs 134.6M enrolled) still applies.
+ZAF-GOV-01-21-C1,true,1,"Carried claim built on DHA statements. Tier 1 origin, but the numerator is stale and a newer official figure (14.7M green-only, 1 Oct) shows the true share is higher. Probably understated."
+ZAF-GOV-01-22-C1,false,3,"Single Tier-3 relay of a cumulative-issuance figure. Contradicts the 28M (July) figure: +6M cards in about two months is far above DHA's stated production capacity of roughly 3.6-5M a year, so the two numbers cannot be on one basis. Fails."
+KEN-GOV-01-20-C1,true,3,"Tier-3 relay of an on-record PS statement; about 29 months old. Contradicting evidence this run: an Aug 2025 NDIC report cites only 90,038 Maisha Numbers issued across four counties, which does not fit '13 million holders'. The 13M may count something else (for example IDs captured in the national register). Not resolved; noted for Red Team."
+ZAF-GOV-02-20-C1,true,1,UN DESA primary. The data center lists 2024 as the latest edition; the 2026 survey is not yet published.
+NGA-GOV-02-20-C1,true,1,UN DESA primary. The data center lists 2024 as the latest edition; the 2026 survey is not yet published.
+KEN-GOV-02-20-C1,true,1,UN DESA primary. The data center lists 2024 as the latest edition; the 2026 survey is not yet published.
+ZAF-ECO-01-20-C1,true,2,"StartupBlink via Ecofin. StartupBlink sells ecosystem advisory work, a mild incentive. Three outlets agree on all three ranks."
+KEN-ECO-01-20-C1,true,2,Same caveat; Capital FM and Ecofin agree on Kenya 61st.
+NGA-ECO-01-20-C1,true,2,Same caveat; Techpoint and Nairametrics agree on Nigeria 62nd.
+ZAF-ECO-02-20-C1,true,2,Carried Partech FY2025 / IMF GDP computation; Partech page not re-fetched this run. Context this run: Jan-Aug 2026 data from TechCabal Insights (NGA $528.6M) and H1 data from Big Deal use different trackers and are not annual.
+NGA-ECO-02-20-C1,true,2,Carried Partech FY2025 / IMF GDP computation; Partech page not re-fetched this run. Context this run: Jan-Aug 2026 data from TechCabal Insights (NGA $528.6M) and H1 data from Big Deal use different trackers and are not annual.
+KEN-ECO-02-20-C1,true,2,Carried Partech FY2025 / IMF GDP computation; Partech page not re-fetched this run. Context this run: Jan-Aug 2026 data from TechCabal Insights (NGA $528.6M) and H1 data from Big Deal use different trackers and are not annual.
+ZAF-AI-01-20-C1,true,2,"PROVENANCE CORRECTION. The scores are from the AI Talent Readiness Index for Africa 2025 by Qhala and Qubit Hub (April 2025). The PwC/Strategy& citation used in earlier weeks is a later relay of the same numbers. Methodology is stated (digital skills 40%, data and infrastructure 35%, government readiness 25%) and credible, but it measures readiness, not 'AI-skilled workforce per capita'. Provisional Tier 2; the publishers are less established than the major research houses in the hierarchy."
+KEN-AI-01-20-C1,true,2,Same provenance correction and caveats.
+NGA-AI-01-20-C1,true,2,Same provenance correction and caveats.
+NGA-AI-01-21-C1,true,3,Relay of the same index; not an independent confirmation. Does not raise confidence.
+ZAF-AI-02-20-C1,true,2,"TechCabal Insights states an AI-native definition and tracks survival since 2022. 49 vs SAP/Vanson Bourne 726 differ by definition (AI-focused, not AI-native)."
+NGA-AI-02-20-C1,true,2,"TechCabal Insights states an AI-native definition and tracks survival since 2022. 50 vs SAP 456, same definitional split."
+KEN-AI-02-20-C1,true,2,"TechCabal Insights states an AI-native definition and tracks survival since 2022. 31 vs SAP 204, same definitional split."

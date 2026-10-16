@@ -1,1 +1,43 @@
-
+claim_id,source_id,country,indicator,value,unit,as_of_date,notes
+ZAF-INF-01-20-C1,ZAF-INF-01-20,ZAF,INF-01,78.4,%,2024-12-31,"ITU/WDI share of population using the internet, 78.36 rounded to 1dp. Matches the registry definition literally. Replaces the household-access figure used 08-19 to 09-23."
+ZAF-INF-01-21-C1,ZAF-INF-01-21,ZAF,INF-01,78.4,%,2024-12-31,Corroborates -20 from a separate ITU-derived table.
+ZAF-INF-01-22-C1,ZAF-INF-01-22,ZAF,INF-01,75.6,%,2024-12-31,"Prior scored value. Source defines it as share of HOUSEHOLDS with mobile internet access (GHS 2024), not share of population using the internet."
+NGA-INF-01-20-C1,NGA-INF-01-20,NGA,INF-01,41.2,%,2024-12-31,41.21 rounded; ITU/WDI individuals using the internet.
+NGA-INF-01-21-C1,NGA-INF-01-21,NGA,INF-01,41.2,%,2024-12-31,Corroborates -20.
+NGA-INF-01-22-C1,NGA-INF-01-22,NGA,INF-01,57.4,%,2026-07-31,"Prior scored value. NCC broadband SUBSCRIPTIONS per 100 population, so multi-SIM inflates it; not individuals online."
+KEN-INF-01-20-C1,KEN-INF-01-20,KEN,INF-01,35.0,%,2024-12-31,WDI/ITU individuals using the internet.
+KEN-INF-01-21-C1,KEN-INF-01-21,KEN,INF-01,35.0,%,2024-12-31,34.98 rounded; corroborates -20.
+KEN-INF-01-22-C1,KEN-INF-01-22,KEN,INF-01,35.0,%,2025-08-11,Tier-1 CA+KNBS survey carried from earlier runs; agrees with ITU series.
+ZAF-INF-02-20-C1,ZAF-INF-02-20,ZAF,INF-02,1.27,%,2025-12-31,ITU 2025 data-only mobile broadband basket (5GB) as % of monthly GNI p.c. Read from the StatOrigin mirror because the ITU xlsx was not machine-readable here.
+NGA-INF-02-20-C1,NGA-INF-02-20,NGA,INF-02,1.56,%,2025-12-31,"Same ITU 2025 basket, same mirror."
+KEN-INF-02-20-C1,KEN-INF-02-20,KEN,INF-02,4.1,%,2025-12-31,"Same ITU 2025 basket, same mirror. Not comparable with Kenya's 2024 value (1.79%) because the basket changed."
+ZAF-FIN-01-20-C1,ZAF-FIN-01-20,ZAF,FIN-01,7.26,index,2026-01-22,72.57 per 1000 adults converted to per 100. Mobile-money-specific construct.
+NGA-FIN-01-20-C1,NGA-FIN-01-20,NGA,FIN-01,49.45,index,2026-01-22,494.54 per 1000 adults converted to per 100. REGISTERED accounts (supply side).
+KEN-FIN-01-20-C1,KEN-FIN-01-20,KEN,FIN-01,52.6,index,2024-12-03,Daily mobile-money use rate used directly as index value.
+ZAF-FIN-01-21-C1,ZAF-FIN-01-21,ZAF,FIN-01,67,%,2024-12-31,"Findex 2025 digital payment share. Different unit and construct from the registry (index of mobile-money transactions). Logged as an alternative, not for scoring."
+NGA-FIN-01-22-C1,NGA-FIN-01-22,NGA,FIN-01,54,%,2024-12-31,Findex 2025 digital payment share (alternative construct).
+KEN-FIN-01-22-C1,KEN-FIN-01-22,KEN,FIN-01,89,%,2024-12-31,Findex 2025 digital payment share (alternative construct).
+NGA-FIN-02-20-C1,NGA-FIN-02-20,NGA,FIN-02,98.3,index,2026-09-23,Rank 3 of 117: 100*(117-3)/116 = 98.28.
+NGA-FIN-02-21-C1,NGA-FIN-02-21,NGA,FIN-02,98.3,index,2026-09-23,Corroborates -20 (separate outlet).
+ZAF-FIN-02-20-C1,ZAF-FIN-02-20,ZAF,FIN-02,93.1,index,2026-09-23,Rank 9 of 117: 100*(117-9)/116 = 93.10.
+ZAF-FIN-02-21-C1,ZAF-FIN-02-21,ZAF,FIN-02,93.1,index,2026-09-23,Corroborates -20 (separate outlet).
+NGA-GOV-01-20-C1,NGA-GOV-01-20,NGA,GOV-01,64.5,%,2026-09-16,"142M enrolled / 220M assumed population. 200-250M gives about 71%-57%. Counts enrolments, not issued NINs."
+ZAF-GOV-01-21-C1,ZAF-GOV-01-21,ZAF,GOV-01,63.6,%,2026-07-29,Carried: 28M/(28M+16M). Numerator not refreshed on a like basis.
+ZAF-GOV-01-22-C1,ZAF-GOV-01-22,ZAF,GOV-01,69.8,%,2026-09-30,"34M cumulative cards / (34M + 14.7M green-only). Cumulative cards include reissues, so this is not the same basis as 28M holders."
+KEN-GOV-01-20-C1,KEN-GOV-01-20,KEN,GOV-01,40.6,%,2024-05-08,"Carried: 13M/32M adults, May 2024."
+ZAF-GOV-02-20-C1,ZAF-GOV-02-20,ZAF,GOV-02,88.7,%,2024-09-01,"UN Online Service Index x100, 2024 edition (2026 edition not yet published)."
+NGA-GOV-02-20-C1,NGA-GOV-02-20,NGA,GOV-02,53.7,%,2024-09-01,"UN Online Service Index x100, 2024 edition (2026 edition not yet published)."
+KEN-GOV-02-20-C1,KEN-GOV-02-20,KEN,GOV-02,77.7,%,2024-09-01,"UN Online Service Index x100, 2024 edition (2026 edition not yet published)."
+ZAF-ECO-01-20-C1,ZAF-ECO-01-20,ZAF,ECO-01,57.1,index,2026-05-19,Rank 52: 100*(120-52)/119 = 57.14. N=120 carried from earlier runs; not stated in this run's sources.
+KEN-ECO-01-20-C1,KEN-ECO-01-20,KEN,ECO-01,49.6,index,2026-05-19,Rank 61: 100*(120-61)/119 = 49.58. N=120 carried.
+NGA-ECO-01-20-C1,NGA-ECO-01-20,NGA,ECO-01,48.7,index,2026-05-19,Rank 62: 100*(120-62)/119 = 48.74. N=120 carried.
+ZAF-ECO-02-20-C1,ZAF-ECO-02-20,ZAF,ECO-02,0.149,%,2026-01-22,Carried FY2025 computation; GDP denominator sensitivity unchanged (~20%).
+NGA-ECO-02-20-C1,NGA-ECO-02-20,NGA,ECO-02,0.201,%,2026-01-22,Carried FY2025 computation.
+KEN-ECO-02-20-C1,KEN-ECO-02-20,KEN,ECO-02,0.706,%,2026-01-22,Carried FY2025 computation.
+ZAF-AI-01-20-C1,ZAF-AI-01-20,ZAF,AI-01,52.15,index,2025-04-30,Qhala/Qubit Hub score as published. Earlier runs logged 52.1 from a rounded secondary; as_of corrected from 2025-08-25 to 2025-04-30.
+KEN-AI-01-20-C1,KEN-AI-01-20,KEN,AI-01,49.7,index,2025-04-30,49.70 as published.
+NGA-AI-01-20-C1,NGA-AI-01-20,NGA,AI-01,37.7,index,2025-04-30,37.70 as published.
+NGA-AI-01-21-C1,NGA-AI-01-21,NGA,AI-01,37.7,index,2025-08-25,PwC/Strategy& citation of the same figure; not independent of -20.
+ZAF-AI-02-20-C1,ZAF-AI-02-20,ZAF,AI-02,49,index,2026-04-01,Raw count used as index value (documented convention).
+NGA-AI-02-20-C1,NGA-AI-02-20,NGA,AI-02,50,index,2026-04-01,Raw count used as index value.
+KEN-AI-02-20-C1,KEN-AI-02-20,KEN,AI-02,31,index,2026-04-01,Raw count used as index value; Kenya most mature by stage mix (42% growth stage).

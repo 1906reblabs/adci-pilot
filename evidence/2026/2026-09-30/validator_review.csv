@@ -1,0 +1,43 @@
+claim_id,validator_pass,validator_notes
+ZAF-INF-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-INF-01-21-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-INF-01-22-C1,false,"Unit mismatch: the claim is a share of households, the registry unit is share of population using the internet. Value (75.6) is in range, but it measures a different thing."
+NGA-INF-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-INF-01-21-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-INF-01-22-C1,false,"Unit mismatch: subscriptions per 100 population are not individuals using the internet (multi-SIM, business lines). Value in range but construct differs from the registry definition."
+KEN-INF-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-INF-01-21-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-INF-01-22-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-INF-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-INF-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-INF-02-20-C1,true,"In range. Large change from the 2024 series value is a method break, not a unit error; noted."
+ZAF-FIN-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-FIN-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-FIN-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-FIN-01-21-C1,false,"Alternative construct: percent of adults making a digital payment, not an index of mobile-money transactions per 100 adults. Held out of scoring pending a METHODOLOGY.md decision; stays in file."
+NGA-FIN-01-22-C1,false,"Alternative construct: percent of adults making a digital payment, not an index of mobile-money transactions per 100 adults. Held out of scoring pending a METHODOLOGY.md decision; stays in file."
+KEN-FIN-01-22-C1,false,"Alternative construct: percent of adults making a digital payment, not an index of mobile-money transactions per 100 adults. Held out of scoring pending a METHODOLOGY.md decision; stays in file."
+NGA-FIN-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-FIN-02-21-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-FIN-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-FIN-02-21-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-GOV-01-20-C1,true,"142/220 = 64.5 reproducible. Denominator is an assumption (same as earlier weeks, kept for consistency)."
+ZAF-GOV-01-21-C1,true,Arithmetic reproducible (28/44). Carried; numerator not refreshed. Hold confidence at low.
+ZAF-GOV-01-22-C1,false,Not reproducible on the registry basis: numerator (cumulative cards incl. reissues) differs from the 28M holders used for 63.6. Mixing bases would create a false 6-point rise.
+KEN-GOV-01-20-C1,true,Arithmetic reproducible (13/32). Date is about 29 months old; hold confidence at low.
+ZAF-GOV-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-GOV-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-GOV-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-ECO-01-20-C1,true,Formula reproducible (100*(120-52)/119). N=120 not restated in this run's sources; carried.
+KEN-ECO-01-20-C1,true,Formula reproducible. N=120 carried.
+NGA-ECO-01-20-C1,true,Formula reproducible. N=120 carried.
+ZAF-ECO-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-ECO-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-ECO-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+ZAF-AI-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-AI-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-AI-01-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-AI-01-21-C1,true,"Same value as -20; duplicate evidence of one index, treated as one reading."
+ZAF-AI-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+NGA-AI-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
+KEN-AI-02-20-C1,true,In registry bounds; date plausible; source_id exists; formula/unit reproducible from cited source.
